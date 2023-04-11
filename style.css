@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+}
+
+nav{
+  /*Bidra till att menyn följer neråt sidan*/
+}
+
+ul {
+  list-style-type: none;
+  background: green;
+  text-align: center;
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+}
