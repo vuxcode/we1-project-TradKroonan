@@ -4,5 +4,7 @@
 
 For example: 
 
-- 2022-10-25 13:00 Worked for 1 hour.
-  - *List the things you have done.*
+- 2022-04-11 16:45 Arbetade i 1 h.
+  - Fixade grunden för menyn
+  - Länkade meny-alternativen till sina respektive sidor.
+  - Fixade en style.css för alla sidor.
