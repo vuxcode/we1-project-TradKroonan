@@ -3,13 +3,46 @@
   padding: 0;
 }
 
+body{
+  background-color: green;
+}
+
+.border {
+  border-style: double;
+}
+
+.sida {
+  width: 90%;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  text-align: center;
+}
+
+.welcome {
+  display: inline-block;
+  width: 50%;
+  height: 300px;
+}
+
+.latest {
+  display: inline-block;
+  width: 30%;
+  height: 300px;
+}
+
 li {
   display: inline-block;
 }
 
-nav{
-  /*Bidra till att menyn följer neråt sidan*/
+a {
+  font-size: 40px;
 }
+
+/* nav */
+  /*Bidra till att menyn följer neråt sidan*/
+
 
 ul {
   list-style-type: none;
@@ -18,7 +51,7 @@ ul {
 }
 
 li a {
-  display: block;
+  display: inline-block;
   color: white;
   padding: 20px;
   text-decoration: none;
