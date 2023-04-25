@@ -8,28 +8,40 @@ body{
 }
 
 .border {
-  border-style: double;
+  /* placering & plats */
+  border-style: solid;
+  border-color: brown;
+  /* Design */
+  border-radius: 5%;
 }
 
-.sida {
+.parent_info {
+  /* placering & plats */
   width: 90%;
-  height: 500px;
+  min-width: 350px;
+  height: 700px;
   margin-left: auto;
   margin-right: auto;
   background-color: white;
   text-align: center;
+  /* Design */
+  border-radius: 5%;
 }
 
 .welcome {
   display: inline-block;
+  min-width: 300px;
   width: 50%;
   height: 300px;
+  margin: 2%;
 }
 
 .latest {
   display: inline-block;
+  min-width: 130px;
   width: 30%;
   height: 300px;
+  margin: 2%;
 }
 
 li {
