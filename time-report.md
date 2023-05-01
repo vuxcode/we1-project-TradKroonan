@@ -2,7 +2,12 @@
 
 > Write about what you have done and how long you have worked on each part of the project.
 
-- 2022-04-25 16:30 Arbetade i 0.25 h.
+- 2022-04-25 21:15 Arbetade i 0.75 h.
+  - Nu möjligt att lägga in material i welcome och review utan att de påverkar den andra
+  - Anpassade efter hur stor skärmen är
+    -Kanske behöver ändra ytterliggare med texten 
+
+- 2022-04-25 19:30 Arbetade i 0.25 h.
   - Ändrade färger
 
 - 2022-04-25 16:30 Arbetade i 1.5 h.
