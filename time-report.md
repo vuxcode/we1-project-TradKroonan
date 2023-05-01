@@ -2,6 +2,10 @@
 
 > Write about what you have done and how long you have worked on each part of the project.
 
+- 2022-04-25 16:30 Arbetade i 1.5 h.
+  - Beroende på skärm ändras menyns storlek
+  - Förbättrat grunden för latest review och welcome-rutan
+
 - 2022-04-25 14:00 Arbetade i 0.5 h.
   - plattformsanpassning vid mindre skärmar
   - Mindre förändingar
