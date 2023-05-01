@@ -4,32 +4,38 @@
 }
 
 body{
-  background-color: green;
+  background-color: #5C7457;
+  border-top: solid;
+  border-left: solid;
+  border-right: solid;
+  border-color: #9D695A;
+  border-width: 5px;
 }
 
 .border {
   /* placering & plats */
   border-style: solid;
-  border-color: brown;
+  border-color: #9D695A;
   /* Design */
   border-radius: 20px;
+  border-width: 5px;
 }
 
 .parent_info {
-  /* placering & plats */
   width: 90%;
   min-width: 350px;
   height: 700px;
   margin-left: auto;
   margin-right: auto;
-  background-color: white;
+  background-color: #EAE6E5;
   text-align: center;
-  /* Design */
+
+  border-width: 5px;
   border-top-right-radius: 40px;
   border-top-left-radius: 40px;
   border-style: solid;
-  /* Temp färg */
-  border-color: brown;
+  
+  border-color: #9D695A;
 }
 
 .welcome {
@@ -37,7 +43,11 @@ body{
   min-width: 300px;
   width: 50%;
   height: 300px;
-  margin: 2%;
+  margin: 0 2% 0;
+}
+
+h2 {
+  color: #BFAB25;
 }
 
 .h2_w {
@@ -51,7 +61,12 @@ body{
   width: 100%;
   height: 200px;
   border-style: solid;
+  border-radius: 10px;
+  border-width: 5px;
+  border-color: #9D695A;
   box-sizing: border-box;
+  padding: 5px;
+  color: #BFAB25;
 }
 
 .h2_l {
@@ -62,7 +77,8 @@ body{
 .p_l{
   text-align: left;
   border-top-style: solid;
-  border-color: maroon;
+  border-color: #9D695A;
+  color: #BFAB25;
 }
 
 .latest {
@@ -71,6 +87,7 @@ body{
   width: 30%;
   height: 300px;
   margin: 2%;
+  box-sizing: border-box;
 }
 
 nav {
@@ -82,7 +99,7 @@ ul {
   width: 90%;
   list-style-type: none;
   text-align: center;
-  margin: 2% 0;
+  margin: 1% 0;
 }
 
 .button_menu {
@@ -91,12 +108,12 @@ ul {
   padding: 1% 2%;
   border-style: solid;
   border-radius: 5px;
-  border-color: wheat;
+  border-color: #EAE6E5;
 }
 
 li a {
   display: inline-block;
-  color: white;
+  color: #EAE6E5;
   font-size: 3vw;
   text-decoration: none;  
 }
