@@ -12,7 +12,7 @@ body{
   border-style: solid;
   border-color: brown;
   /* Design */
-  border-radius: 5%;
+  border-radius: 20px;
 }
 
 .parent_info {
@@ -25,7 +25,11 @@ body{
   background-color: white;
   text-align: center;
   /* Design */
-  border-radius: 5%;
+  border-top-right-radius: 40px;
+  border-top-left-radius: 40px;
+  border-style: solid;
+  /* Temp färg */
+  border-color: brown;
 }
 
 .welcome {
@@ -36,6 +40,31 @@ body{
   margin: 2%;
 }
 
+.h2_w {
+  display: inline-block;
+  font-size: 3vw;
+}
+
+.p_w{
+  display: block;
+  text-align: left;
+  width: 100%;
+  height: 200px;
+  border-style: solid;
+  box-sizing: border-box;
+}
+
+.h2_l {
+  display: inline-block;
+  
+}
+
+.p_l{
+  text-align: left;
+  border-top-style: solid;
+  border-color: maroon;
+}
+
 .latest {
   display: inline-block;
   min-width: 130px;
@@ -44,27 +73,31 @@ body{
   margin: 2%;
 }
 
-li {
-  display: inline-block;
+nav {
+  text-align: center;
 }
-
-a {
-  font-size: 40px;
-}
-
-/* nav */
-  /*Bidra till att menyn följer neråt sidan*/
-
 
 ul {
+  display: inline-block;
+  width: 90%;
   list-style-type: none;
-  background: green;
   text-align: center;
+  margin: 2% 0;
+}
+
+.button_menu {
+  display: inline-block;
+  margin: 0 2%;
+  padding: 1% 2%;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: wheat;
 }
 
 li a {
   display: inline-block;
   color: white;
-  padding: 20px;
-  text-decoration: none;
+  font-size: 3vw;
+  text-decoration: none;  
 }
+
