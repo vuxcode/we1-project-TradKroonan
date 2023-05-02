@@ -95,8 +95,9 @@ h2 {
   border-top-left-radius: 10px;
   width: 100%;
   box-sizing: border-box;
-  background-color: white;
+  background-color: white; 
 }
+
 
 .p_l{
   text-align: center;
@@ -109,6 +110,13 @@ h2 {
   color: #BFAB25;
   background-color: white;
   padding: 2%;
+  
+  
+}
+
+.a_latest {
+  text-decoration: none;
+  color: #BFAB25;
 }
 
 .latest_bottom {
