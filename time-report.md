@@ -2,6 +2,10 @@
 
 > Write about what you have done and how long you have worked on each part of the project.
 
+ 2022-05-02 13:45 Arbetade i 0.5 h.
+  - Färganpassning
+  - Påbörjan av boksidan
+
   2022-05-02 13:00 Arbetade i 0.5 h.
   - Fixde ännu mer anpassning beroende på textens storlek och skärmens storlek i welcome & latest
   - Latest har nu anpassats till dess innehåll
