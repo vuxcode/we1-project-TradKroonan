@@ -4,9 +4,9 @@
 }
 
 body{
-  background-color: #475841;
+  background-color: #354449;
   border-style: solid;
-  border-color: #FFBF46;
+  border-color: #CFC1AB;
   border-width: 5px;
   padding-bottom:0;
 }
@@ -14,7 +14,7 @@ body{
 .border {
   /* placering & plats */
   border-style: solid;
-  border-color: #FFBF46;
+  border-color: #CFC1AB;
   /* Design */
   border-radius: 20px;
   border-width: 5px;
@@ -37,7 +37,7 @@ body{
   border-radius: 40px;
   border-style: solid;
   
-  border-color: #FFBF46;
+  border-color: #CFC1AB;
   box-sizing: border-box;
 }
 
@@ -53,7 +53,7 @@ body{
   border-style: solid;
   border-radius: 10px;
   border-width: 5px;
-  border-color: #FFBF46;
+  border-color: #CFC1AB;
 }
 
 .welcome {
@@ -81,9 +81,9 @@ h2 {
 .p_w{
   text-align: left;
   font-size: 3vw;
-  border-style: solid;
+  border-top-style: solid;
   border-width: 5px;
-  border-color: #FFBF46;
+  border-color: #CFC1AB;
   color: #BFAB25;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -95,7 +95,7 @@ h2 {
   display: inline-block;
   padding: 4% 0;
   /* border-style: solid; */
-  /* border-color: #FFBF46; */
+  /* border-color: #CFC1AB; */
   border-width: 5px;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
@@ -112,7 +112,7 @@ h2 {
   border-width: 5px;
   border-bottom-width: 2px;
   border-top-style:none;
-  border-color: #FFBF46;
+  border-color: #CFC1AB;
   color: #BFAB25;
   background-color: white;
   padding: 2%;
@@ -161,12 +161,12 @@ ul {
   border-style: solid;
   border-width: 3px;
   border-radius: 5px;
-  border-color: #EAE6E5;
+  border-color: #BFAB25;
 }
 
 li a {
   display: inline-block;
-  color: #EAE6E5;
+  color: #BFAB25;
   font-size: 3vw;
   text-decoration: none;  
 }
