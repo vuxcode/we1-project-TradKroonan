@@ -20,6 +20,10 @@ body{
   border-width: 5px;
 }
 
+.button_menu:hover {
+  background-color: darkolivegreen;
+}
+
 .parent_info {
   width: 90%;
   min-width: 350px;
@@ -60,32 +64,43 @@ h2 {
 }
 
 .p_w{
-  display: inline-block;
   text-align: left;
-  font-size: 2vw;
-
-  width: 100%;
-  height: 250px;
+  font-size: 3vw;
   border-style: solid;
-  border-radius: 10px;
   border-width: 5px;
   border-color: #9D695A;
-  box-sizing: border-box;
-  padding: 5px;
   color: #BFAB25;
+  border-radius: 10px;
+  padding: 2%;
 }
 
 .h2_l {
   display: inline-block;
-  
+  border-style: solid;
+  border-color: #9D695A;
+  border-width: 5px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .p_l{
-  text-align: left;
-  font-size: 2vw;
-  border-top-style: solid;
+  text-align: center;
+  font-size: 3vw;
+  border-style: solid;
+  border-width: 5px;
+  border-bottom-width: 2px;
+  border-top-style:none;
   border-color: #9D695A;
   color: #BFAB25;
+  padding: 2%;
+}
+
+.latest_bottom {
+  border-bottom-width: 5px; 
+  border-bottom-left-radius: 10px; 
+  border-bottom-right-radius: 10px;
 }
 
 .latest {
