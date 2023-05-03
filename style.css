@@ -49,11 +49,34 @@ body{
   display: inline-block;
   margin: 3%;
   width: 70%;
-  height: 100px;
   border-style: solid;
   border-radius: 10px;
   border-width: 5px;
   border-color: #CFC1AB;
+  text-align: left;
+}
+
+.rev_bar img {
+  display: block;
+  width: 19%;
+  padding: 1%;
+  border-right: solid 5px #CFC1AB;
+  background-color: #354449;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  float: left;
+}
+
+.collect_name {
+  width: 75%;
+  color: #BFAB25;
+  border-bottom-style: solid;
+  border-right-style: solid;
+  border-color: #CFC1AB;
+  border-width: 5px;
+  font-size: 3vw;
+  text-align: center;
+  box-sizing: border-box;
 }
 
 .welcome {
