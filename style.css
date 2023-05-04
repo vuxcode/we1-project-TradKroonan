@@ -6,6 +6,7 @@
 body{
   background-color: #354449;
   border-style: solid;
+  border-bottom-style: none;
   border-color: #CFC1AB;
   border-width: 5px;
   padding-bottom:0;
@@ -21,7 +22,7 @@ body{
 }
 
 .button_menu:hover {
-  background-color: darkolivegreen;
+  box-shadow: inset 1px 1px 15px #CFC1AB;
 }
 
 .parent_info {
@@ -117,8 +118,6 @@ h2 {
 .h2_l {
   display: inline-block;
   padding: 4% 0;
-  /* border-style: solid; */
-  /* border-color: #CFC1AB; */
   border-width: 5px;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
@@ -138,12 +137,19 @@ h2 {
   border-color: #CFC1AB;
   color: #BFAB25;
   background-color: white;
+}
+
+.p_l:hover {
+  box-shadow: inset 1px 1px 15px #CFC1AB;
+}
+
+.latest_link {
   padding: 2%;
-  
-  
 }
 
 .a_latest {
+  display: block;
+  width: 100%;
   text-decoration: none;
   color: #BFAB25;
 }
