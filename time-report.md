@@ -1,7 +1,10 @@
 # Time Report
 
 > Write about what you have done and how long you have worked on each part of the project.
-2022-05-04 17:00?? Arbetade i 0.5 h.
+2022-05-06 18:15 Arbetade i 0.5 h.
+  - Städade i programmet.
+
+2022-05-04 13:20 Arbetade i 1 h.
   - Box-shadowing i meny & latest-review
   - fixade latest-review så att hela "knappen" fungerar som en länk
 
