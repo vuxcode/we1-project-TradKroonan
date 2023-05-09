@@ -127,31 +127,34 @@ a {
 
   /* Menu */
   nav {
+    display: inline-block;
     text-align: center;
     width: 100%;
-    /* box-sizing: border-box; */
   }
   .logo {
     display: block;
-    float: left;
-    border: solid #CFC1AB;
-    width: 8%;
-    margin: 1% 0 0 1%;
-    border-radius: 5px;
+    width: 10%;
+    margin: 2% 0 0 2%;
     box-sizing: border-box;
+    float: left;
+  }
+  .logo img {
+    display: block;
+    width: 100%;
+    border-style: solid;
+    border-radius: 5px;
   }
   ul {
-    display: inline-block;
+    display: block;
     width: 80%;
     list-style-type: none;
     text-align: center;
-    margin: 2% 10% 2% 0;
-    
+    float: left;
   }
   li {
     display: inline-block;
-    margin: 0 2%;
     padding: 1% 2%;
+    margin: 2% 0 2% 2%;
     border-style: solid;
     border-width: 3px;
     border-radius: 5px;
