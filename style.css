@@ -1,15 +1,11 @@
 /* Home */
 body{
   background-color: #354449;
-  border-style: solid;
-  border-bottom-style: none;
-  border-color: #CFC1AB;
-  border-width: 5px;
-  padding-bottom:0;
+  
 }
 .info_parent {
   width: 90%;
-  min-width: 250px;
+  min-width: 260px;
   margin-left: auto;
   margin-right: auto;
   background-color: #EAE6E5;
@@ -128,31 +124,37 @@ a {
   /* Menu */
   nav {
     display: inline-block;
+    background-color: #354449;
     text-align: center;
     width: 100%;
   }
   .logo {
-    display: block;
-    width: 10%;
+    display: inline-block;
+    width: 100%;
+    min-width: 50px;
     margin: 2% 0 0 2%;
     box-sizing: border-box;
-    float: left;
+    text-align: center;
+    
   }
   .logo img {
     display: block;
-    width: 100%;
+    width: 15%;
     border-style: solid;
     border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
   }
   ul {
-    display: block;
+    display: inline-block;
     width: 80%;
+    min-width: 230px;
     list-style-type: none;
     text-align: center;
-    float: left;
   }
   li {
     display: inline-block;
+    min-width: 50px;
     padding: 1% 2%;
     margin: 2% 0 2% 2%;
     border-style: solid;
