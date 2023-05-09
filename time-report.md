@@ -2,7 +2,7 @@
 
 > Write about what you have done and how long you have worked on each part of the project.
 
-2022-05-09 14:40 Arbetade i 0.5 h.
+2022-05-09 15:30 Arbetade i 1 h.
   - Logo - ny plats
   - Buggen med knapparna inte längre ett problem
   - anpassat text efter små skärmar så att det är någorlunda läsbart
