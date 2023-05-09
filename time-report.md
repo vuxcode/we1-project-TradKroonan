@@ -2,6 +2,12 @@
 
 > Write about what you have done and how long you have worked on each part of the project.
 
+2022-05-09 14:40 Arbetade i 0.5 h.
+  - Logo - ny plats
+  - Buggen med knapparna inte längre ett problem
+  - anpassat text efter små skärmar så att det är någorlunda läsbart
+  - Skärmen ändrar också layout ifall skärmen är mindre
+  - ny bugg
 
 2022-05-09 14:40 Arbetade i 0.5 h.
   - Logo - mer anpassningsbar
