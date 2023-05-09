@@ -1,6 +1,11 @@
 # Time Report
 
 > Write about what you have done and how long you have worked on each part of the project.
+
+2022-05-09 11:00 Arbetade i 0.5 h.
+  - Logo
+  - Bugg-sök*
+  
 2022-05-06 18:15 Arbetade i 0.5 h.
   - Städade i programmet.
 
