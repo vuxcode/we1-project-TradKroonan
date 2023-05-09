@@ -9,7 +9,7 @@ body{
 }
 .info_parent {
   width: 90%;
-  min-width: 350px;
+  min-width: 250px;
   margin-left: auto;
   margin-right: auto;
   background-color: #EAE6E5;
@@ -128,17 +128,29 @@ a {
   /* Menu */
   nav {
     text-align: center;
+    width: 100%;
+    /* box-sizing: border-box; */
+  }
+  .logo {
+    display: block;
+    float: left;
+    border: solid #CFC1AB;
+    width: 8%;
+    margin: 1% 0 0 1%;
+    border-radius: 5px;
+    box-sizing: border-box;
   }
   ul {
     display: inline-block;
-    width: 90%;
+    width: 80%;
     list-style-type: none;
     text-align: center;
-    margin-top: 2%;
+    margin: 2% 10% 2% 0;
+    
   }
   li {
     display: inline-block;
-    margin: 0 2% 2%;
+    margin: 0 2%;
     padding: 1% 2%;
     border-style: solid;
     border-width: 3px;
