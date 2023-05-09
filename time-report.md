@@ -2,6 +2,8 @@
 
 > Write about what you have done and how long you have worked on each part of the project.
 
+30h-11h = 19h
+
 2022-05-09 15:30 Arbetade i 1 h.
   - Logo - ny plats
   - Buggen med knapparna inte längre ett problem
