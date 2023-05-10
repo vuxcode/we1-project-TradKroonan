@@ -5,23 +5,37 @@
   <link href="style.css" rel="stylesheet">
 </head>
 <body>
-  <nav>
+  <div class="logo">
+    <img src="halv_putte.jpg" alt="Logo">
+  </div>
+  <nav class="nav_menu">
     <ul>
-      <li class="button_menu"><a href="index.html">Hem</a></li>
-      <li class="button_menu"><a href="collect_movie.html">Film</a></li>
-      <li class="button_menu"><a href="collect_serie.html">Serie</a></li>
-      <li class="button_menu"><a href="collect_book.html">Bok</a></li>
-      <li class="button_menu"><a href="contact.html">Kontakt info</a></li>
+      <li style="margin-left: 0;"><a href="index.html">Hem</a>
+      </li><li><a href="collect_movie.html">Film</a>
+      </li><li><a href="collect_serie.html">Serie</a>
+      </li><li><a href="collect_book.html">Bok</a>
+      </li><li><a href="contact.html">Kontakt info</a></li>
     </ul>
   </nav>
-  <div class="info_parent">
-    <div style="text-align: center;">
-      <div class="review_bar">
+  <nav class="info_parent">
+    <ul style="text-align: center;">
+      <li class="review_bar"><a href="index.html">
         <img src="sjö_putte.jpg">
-        <div class="piece_name">
-          <p>Sagan om Ringen</p>
+        <div class="parent_piece">
+          <div class="piece_name">
+            <p>Sagan om Ringen</p>
+          </div><div class="piece_rating">
+            <p>3/5</p>
+          </div>
+          <article>
+            <p style="display: inline-block;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+              Aenean commod ementum semper nisi. Aenean vulputate eleifend tellus.
+              Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
+              Aliquam lorem ante</p>
+          </article>
         </div>
-      </div>
+      </a>
+      </li>
       <div class="review_bar">
         <img src="sjö_putte.jpg">
       </div>
@@ -34,7 +48,7 @@
       <div class="review_bar">
         <img src="sjö_putte.jpg">
       </div>
-    </div>
+    </ul>
   </div>
   <div class="social">
     
