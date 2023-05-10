@@ -2,7 +2,8 @@
 
 > Write about what you have done and how long you have worked on each part of the project.
 
-30h-12.5h = 17.5h
+30h-13h = 17h
+2022-05-10 21:10 Arbetade i 0.5 h.
 
 2022-05-10 19:00 Arbetade i 1.5 h.
  - Fixat bugg med länk
