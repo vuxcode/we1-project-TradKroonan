@@ -148,7 +148,7 @@ a {
     list-style-type: none;
     text-align: center;
   }
-  .nav_menu ul li {
+  .nav_menu ul a {
     display: inline-block;
     min-width: 50px;
     padding: 1% 2%;
@@ -157,13 +157,10 @@ a {
     border-width: max(1.5px,0.3vw);
     border-radius: 5px;
     border-color: #BFAB25;
-  }
-  .nav_menu ul li:hover {
-    box-shadow: inset 1px 1px 15px #CFC1AB;
-  }
-  .nav_menu ul li a {
-    display: block;
     font-size: max(12px,3vw);
+  }
+  .nav_menu ul a:hover {
+    box-shadow: inset 1px 1px 15px #CFC1AB;
   }
   /* End - Menu */
 /* End - Global */
@@ -184,7 +181,10 @@ a {
     display: block;
     width: 19%;
     padding: 1%;
-    border-right: solid 5px #CFC1AB;
+    border-bottom: solid;
+    border-right: solid;
+    border-color: #CFC1AB;
+    border-width: 5px;
     background-color: #354449;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
@@ -194,6 +194,7 @@ a {
   .parent_piece{
     float: left;
     width: 81%;
+    box-sizing: border-box;
   }
 
   .piece_name {
@@ -221,9 +222,12 @@ a {
 
   .parent_piece article {
     display: inline-block;
-    width: 100%;
-    height: 100%;
+    font-size: 2vw;
     padding: 1%;
+  }
+
+  .parent_piece article p {
+    color: #354449;
   }
   /* End - Review bar */
 /* End - collected books */
