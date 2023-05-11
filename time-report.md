@@ -2,7 +2,11 @@
 
 > Write about what you have done and how long you have worked on each part of the project.
 
-30h-14h = 16h
+30h-14.5h = 15.5h
+2022-05-11 10:45 Arbetade i 0.5 h.
+- bugg i sociala medier
+- Font
+
 2022-05-11 9:00 Arbetade i 1 h.
 - Sociala medier i botten
 
