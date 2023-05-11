@@ -117,22 +117,26 @@ a {
 }
 .social div{
   display: inline-block;
-  width: max(25px,3vw);
   margin: 3% 10% 3% 0;
   box-sizing: border-box;
 }
-.social a {
+
+.social a{
   display: inline-block;
-  width: 100%
+  height: max(30px,6vw);
 }
+
 .social div img{
-  width: 100%;
-  padding: 20%;
+  width: max(30px,6vw);
+  height: max(30px,6vw);
+  padding: 10%;
   background-color: white;
   border-style: solid;
   border-radius: 10%;
   box-sizing: border-box;
 }
+
+
 
   /* Menu */
   .nav_menu {
