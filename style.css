@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
 /* Home */
 body{
   background-color: #354449;
-  
+  font-family: 'Kanit', sans-serif;
 }
 .info_parent {
   width:max(150px,90%);
@@ -110,18 +111,27 @@ a {
 }
 .social{
   display:block;
-  /* position: absolute; */
-  /* margin-top: 25%; */
   background-color: gray;
   width: max(150px,100%);
   text-align: center;
 }
 .social div{
   display: inline-block;
+  width: max(25px,3vw);
   margin: 3% 10% 3% 0;
+  box-sizing: border-box;
+}
+.social a {
+  display: inline-block;
+  width: 100%
 }
 .social div img{
-  width: max(25px,3vw);
+  width: 100%;
+  padding: 20%;
+  background-color: white;
+  border-style: solid;
+  border-radius: 10%;
+  box-sizing: border-box;
 }
 
   /* Menu */
@@ -182,23 +192,21 @@ a {
     border-radius: 10px;
     border-width: max(1.5px,0.3vw);
     border-color: #CFC1AB;
-    background-color: white;
+    background-color:#354449;
     text-align: left;
+    border-bottom-left-radius: 50px;
   }
   .review_bar img {
     display: block;
     width: 19%;
     padding: 1%;
-    border-bottom: solid;
-    border-color: #CFC1AB;
-    border-width: max(1.5px,0.3vw);
-    background-color: #354449;
     border-top-left-radius: 5px;
     float: left;
     box-sizing: border-box;
   }
   .parent_piece{
     float: left;
+    background-color: white;
     width: 81%;
     box-sizing: border-box;
   }
@@ -221,6 +229,7 @@ a {
     width: 25%;
     border-bottom-style: solid;
     border-color: #CFC1AB;
+    background-color:#354449;
     border-width: max(1.5px,0.3vw);
     font-size: max(12px,3vw);
     text-align: center;
@@ -232,7 +241,8 @@ a {
     display: inline-block;
     border-left: solid #CFC1AB;
     border-width: max(1.5px,0.3vw);
-    font-size: max(10px,2vw);
+    font-size: max(10px,1.9vw);
+    font-weight: 500;
     padding: 1%;
     padding-left: 2%;
   }
