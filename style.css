@@ -109,34 +109,46 @@ a {
   text-decoration: none;
   color: #BFAB25;
 }
-.social{
-  display:block;
-  background-color: gray;
-  width: max(150px,100%);
-  text-align: center;
-}
-.social div{
-  display: inline-block;
-  margin: 3% 10% 3% 0;
-  box-sizing: border-box;
-}
+  /* Social media */
+  .social{
+    display:block;
+    background-color: gray;
+    width: max(150px,100%);
+    text-align: center;
+  }
+  .social div{
+    display: inline-block;
+    margin: 3% 10% 3% 0;
+    box-sizing: border-box;
+  }
 
-.social a{
-  display: inline-block;
-  height: max(30px,6vw);
-}
+  .social a{
+    display: inline-block;
+    height: max(30px,6vw);
+  }
 
-.social div img{
-  width: max(30px,6vw);
-  height: max(30px,6vw);
-  padding: 10%;
-  background-color: white;
-  border-style: solid;
-  border-radius: 10%;
-  box-sizing: border-box;
-}
-
-
+  .social div svg{
+    width: max(30px,5vw);
+    height: max(30px,5vw);
+    padding: 10%;
+    background-color: white;
+    border-style: solid;
+    border-radius: 10%;
+    box-sizing: border-box;
+  }
+  .social path{
+    fill: rgb(29, 155, 240);
+  }
+  .social div img{
+    width: max(30px,5vw);
+    height: max(30px,5vw);
+    padding: 10%;
+    background-color: white;
+    border-style: solid;
+    border-radius: 10%;
+    box-sizing: border-box;
+  }
+  /* End - Social media */
 
   /* Menu */
   .nav_menu {
@@ -192,19 +204,20 @@ a {
     display: inline-block;
     margin: 3%;
     width: 70%;
+    padding: 2%;
     border-style: solid;
     border-radius: 10px;
     border-width: max(1.5px,0.3vw);
     border-color: #CFC1AB;
     background-color:#354449;
     text-align: left;
-    border-bottom-left-radius: 50px;
+    
   }
   .review_bar img {
     display: block;
     width: 19%;
-    padding: 1%;
-    border-top-left-radius: 5px;
+    border: solid #CFC1AB;
+    border-right: none;
     float: left;
     box-sizing: border-box;
   }
@@ -212,6 +225,8 @@ a {
     float: left;
     background-color: white;
     width: 81%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
     box-sizing: border-box;
   }
 
@@ -219,7 +234,6 @@ a {
     display: block;
     width: 75%;
     border-style: solid;
-    border-top: none;
     border-color: #CFC1AB;
     border-width: max(1.5px,0.3vw);
     font-size: max(12px,3vw);
@@ -231,8 +245,8 @@ a {
   .piece_rating {
     display: block;
     width: 25%;
-    border-bottom-style: solid;
-    border-color: #CFC1AB;
+    border: solid #CFC1AB;
+    border-left: none;
     background-color:#354449;
     border-width: max(1.5px,0.3vw);
     font-size: max(12px,3vw);
@@ -243,7 +257,8 @@ a {
 
   .parent_piece article {
     display: inline-block;
-    border-left: solid #CFC1AB;
+    border: solid #CFC1AB;
+    border-top: none;
     border-width: max(1.5px,0.3vw);
     font-size: max(10px,1.9vw);
     font-weight: 500;
@@ -251,8 +266,5 @@ a {
     padding-left: 2%;
   }
 
-  .parent_piece article p {
-    color:#BFAB25;
-  }
   /* End - Review bar */
 /* End - collected books */
