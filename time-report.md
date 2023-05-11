@@ -2,10 +2,14 @@
 
 > Write about what you have done and how long you have worked on each part of the project.
 
-30h-13h = 17h
-2022-05-10 21:10 Arbetade i 0.5 h.
+30h-13.5h = 16h
+2022-05-11 9:00 Arbetade i 1 h.
+- Sociala medier i botten
 
-2022-05-10 19:00 Arbetade i 1.5 h.
+2022-05-10 21:10 Arbetade i 0.5 h.
+ - Collected_review med dess funktioner typ färdig
+
+2022-05-10 19:00 Arbetade i 1 h.
  - Fixat bugg med länk
  - Ändrat struktur
  - Review bar är typ färdig
