@@ -2,9 +2,11 @@
 
 > Write about what you have done and how long you have worked on each part of the project.
 
-30h-18h = 12h
+30h-18.5h = 11.5h
+2022-05-12 18:20 Arbetade i 0.5 h.
+- Fixa bugg
 
-2022-05-12 11:20 Arbetade i 1.5 h.
+2022-05-12 14:30 Arbetade i 1.5 h.
 - Rev_bok1
 - Ny design av rev_bar i collected_rev
 - Mer anpassningar till skärm
