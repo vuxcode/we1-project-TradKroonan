@@ -2,7 +2,10 @@
 
 > Write about what you have done and how long you have worked on each part of the project.
 
-30h-15.5h = 14.5h
+30h-16.5h = 13.5h
+
+2022-05-12 11:20 Arbetade i 1 h.
+- Rev_bok1 lite kvar med design
 
 2022-05-11 13:30 Arbetade i 1 h.
 - Design fix
