@@ -19,7 +19,7 @@ a {
 }
   /* Info-parent */
   .info_parent {
-    width:max(150px,90%);
+    width:max(180px,90%);
     margin-left: auto;
     margin-right: auto;
     background-color: #EAE6E5;
@@ -30,11 +30,6 @@ a {
     border-color: #CFC1AB;
     text-align: center;
     box-sizing: border-box;
-  }
-  .parent_bottom {
-    display: inline-block;
-    width: 100%;
-    height: 100px;
   }
   /* End - Info-parent */
 
@@ -89,7 +84,7 @@ a {
   }
   .logo {
     display: inline-block;
-    width: max(150px,100%);
+    width: max(180px,100%);
     min-width: 50px;
     margin-top: 2%;
     box-sizing: border-box;
@@ -107,7 +102,7 @@ a {
   }
   .nav_menu ul {
     display: inline-block;
-    width:max(150px,80%);
+    width:max(180px,80%);
     list-style-type: none;
     text-align: center;
   }
@@ -136,8 +131,8 @@ body{
   /* Welcome */
   .welcome_parent {
     display: inline-block;
-    width: max(100px,40%);
-    margin: 4% 2% 5% 0;
+    width: max(155px,40%);
+    margin: 4% 2% 5% 2%;
   }
   .welcome_h2 {
     display: inline-block;
@@ -164,13 +159,13 @@ body{
   /* Latest Review */
   .latest_parent {
     display: inline-block;
-    width: max(130px,40%);
-    margin: 4% 0 0 2%;
+    width: max(155px,40%);
+    margin: 4% 2% 10% 2%;
     font-size: max(12px,2vw);
     box-sizing: border-box;
     vertical-align: top;
   }
-  .latest_h2 {
+  .latest_parent h2 {
     display: inline-block;
     padding: 4% 0;
     border-top-right-radius: 10px;
@@ -181,7 +176,7 @@ body{
   }
   .latest_p{
     text-align: center;
-    font-size: max(12px,3vw);
+    font-size: max(14px,3vw);
     border-style: solid;
     border-width: 0 max(2px,0.5vw) max(1px,0.2vw);
     border-color: #CFC1AB;
@@ -215,7 +210,69 @@ body{
     border-color: #CFC1AB;
     background-color:#354449;
     text-align: left;
-    
+    box-sizing: border-box;
+  }
+  .review_bar2 {
+    display: inline-block;
+    margin: 3%;
+    width: 90%;
+    padding: 2%;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: max(1.5px,0.3vw);
+    border-color: #CFC1AB;
+    background-color:#354449;
+    text-align: left;
+    box-sizing: border-box;
+  }
+  .review_bar2_img {
+    display: inline-block;
+    width: 20%;
+    box-sizing: border-box;
+  }
+  .review_bar2 img {
+    display: inline-block;
+    width: 100%;
+    border: solid #CFC1AB max(1.5px,0.3vw);
+    border-right: none;
+    vertical-align: top;
+    box-sizing: border-box;
+  }
+  .parent_piece2{
+    display: inline-block;
+    width: 80%;
+    border: solid #CFC1AB max(1.5px,0.3vw);
+    background-color: white;
+    box-sizing: border-box;
+    vertical-align: top;
+    text-align: center;
+  }
+  .piece_name2 {
+    display: inline-block;
+    width: 75%;
+    font-size: max(11px,3vw);
+    border-bottom: solid #CFC1AB max(1px,0.2vw);
+    background-color: white;
+    vertical-align: top;
+    box-sizing: border-box;
+  }
+  .piece_rating2 {
+    display: inline-block;
+    width: 25%;
+    border-bottom: solid #CFC1AB max(1px,0.2vw);
+    border-left:solid #CFC1AB max(1px,0.2vw);
+    vertical-align: top;
+    box-sizing: border-box;
+    font-size: max(11px,3vw);
+  }
+
+  .parent_piece2 article {
+    display: inline-block;
+    font-size: max(10px,1.9vw);
+    font-weight: 500;
+    text-align: left;
+    padding: 1%;
+    padding-left: 2%;
   }
   .review_bar img {
     display: block;
@@ -286,7 +343,7 @@ body{
 .parent_info_review img {
   display: inline-block;
   width: 100%;
-  padding: 3%;
+  padding: 5%;
   background-color: #354449;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
@@ -297,6 +354,7 @@ body{
   display: inline-block;
   text-align: left;
   padding: 1%;
+  font-size: max(10px,1.9vw);
 }
 .parent_des_rev{
   display: inline-block;
@@ -314,12 +372,15 @@ body{
   width: 100%;
   margin-bottom: 4%;
   border: solid #CFC1AB max(2.5px,0.5vw);
+  border-radius: 10px;
   box-sizing: border-box;
 }
 .des_rev h3 {
-  border-bottom: solid #CFC1AB max(2.5px,0.5vw)
+  border-bottom: solid #CFC1AB max(1px,0.2vw);
+  font-size: max(20px,2vw);
 }
 .des_rev p {
+  font-size: max(10px,1.9vw);
   padding: 1%;
   padding-left: 2%;
 }
