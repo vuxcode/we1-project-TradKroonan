@@ -5,11 +5,12 @@
   padding: 0;
 }
 h2 {
-  text-decoration: none;
+  color: #BFAB25;
+}
+h3 {
   color: #BFAB25;
 }
 p {
-  text-decoration: none;
   color: #BFAB25;
 }
 a {
@@ -167,7 +168,7 @@ body{
     margin: 4% 0 0 2%;
     font-size: max(12px,2vw);
     box-sizing: border-box;
-    
+    vertical-align: top;
   }
   .latest_h2 {
     display: inline-block;
@@ -299,15 +300,28 @@ body{
 }
 .parent_des_rev{
   display: inline-block;
-  margin: 5% 0 0 2%;
+  margin: 4% 0 0 2%;
   width: 40%;
   vertical-align: top;
 }
-.parent_description h2{
+.parent_des_rev h2{
   font-size: max(20px,4vw);
   text-decoration: underline;
 }
-.parent_description{
-  
+.des_rev{
+  display: inline-block;
+  background-color: white;
+  width: 100%;
+  margin-bottom: 4%;
+  border: solid #CFC1AB max(2.5px,0.5vw);
+  box-sizing: border-box;
 }
+.des_rev h3 {
+  border-bottom: solid #CFC1AB max(2.5px,0.5vw)
+}
+.des_rev p {
+  padding: 1%;
+  padding-left: 2%;
+}
+
 /* End - Review page */
