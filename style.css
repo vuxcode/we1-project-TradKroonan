@@ -199,10 +199,15 @@ body{
 
 /* Collected books */
   /* Review bar */
+  .a_review_bar{
+    display: inline-block; 
+    width: 90%;
+    margin: 3%;
+  }
   .review_bar {
     display: inline-block;
-    margin: 3%;
-    width: 70%;
+    /* margin: 3%; */
+    width: 100%;
     padding: 2%;
     border-style: solid;
     border-radius: 10px;
@@ -212,25 +217,12 @@ body{
     text-align: left;
     box-sizing: border-box;
   }
-  .review_bar2 {
-    display: inline-block;
-    margin: 3%;
-    width: 90%;
-    padding: 2%;
-    border-style: solid;
-    border-radius: 10px;
-    border-width: max(1.5px,0.3vw);
-    border-color: #CFC1AB;
-    background-color:#354449;
-    text-align: left;
-    box-sizing: border-box;
-  }
-  .review_bar2_img {
+  .review_bar_img {
     display: inline-block;
     width: 20%;
     box-sizing: border-box;
   }
-  .review_bar2 img {
+  .review_bar img {
     display: inline-block;
     width: 100%;
     border: solid #CFC1AB max(1.5px,0.3vw);
@@ -238,7 +230,7 @@ body{
     vertical-align: top;
     box-sizing: border-box;
   }
-  .parent_piece2{
+  .parent_piece{
     display: inline-block;
     width: 80%;
     border: solid #CFC1AB max(1.5px,0.3vw);
@@ -247,7 +239,7 @@ body{
     vertical-align: top;
     text-align: center;
   }
-  .piece_name2 {
+  .piece_name {
     display: inline-block;
     width: 75%;
     font-size: max(11px,3vw);
@@ -256,7 +248,7 @@ body{
     vertical-align: top;
     box-sizing: border-box;
   }
-  .piece_rating2 {
+  .piece_rating {
     display: inline-block;
     width: 25%;
     border-bottom: solid #CFC1AB max(1px,0.2vw);
@@ -266,65 +258,12 @@ body{
     font-size: max(11px,3vw);
   }
 
-  .parent_piece2 article {
+  .parent_piece article {
     display: inline-block;
     font-size: max(10px,1.9vw);
     font-weight: 500;
     text-align: left;
-    padding: 1%;
-    padding-left: 2%;
-  }
-  .review_bar img {
-    display: block;
-    width: 19%;
-    border: solid #CFC1AB;
-    border-width: max(1.5px,0.3vw);
-    float: left;
-    box-sizing: border-box;
-  }
-  .parent_piece{
-    float: left;
-    background-color: white;
-    width: 81%;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    box-sizing: border-box;
-  }
-
-  .piece_name {
-    display: block;
-    width: 75%;
-    border-style: solid;
-    border-color: #CFC1AB;
-    border-width: max(1.5px,0.3vw);
-    font-size: max(12px,3vw);
-    text-align: center;
-    box-sizing: border-box;
-    float: left;
-  }
-
-  .piece_rating {
-    display: block;
-    width: 25%;
-    border: solid #CFC1AB;
-    border-left: none;
-    background-color:#354449;
-    border-width: max(1.5px,0.3vw);
-    font-size: max(12px,3vw);
-    text-align: center;
-    box-sizing: border-box;
-    float: left;
-  }
-
-  .parent_piece article {
-    display: inline-block;
-    border: solid #CFC1AB;
-    border-top: none;
-    border-width: max(1.5px,0.3vw);
-    font-size: max(10px,1.9vw);
-    font-weight: 500;
-    padding: 1%;
-    padding-left: 2%;
+    padding: 0 1% 1% 2%;
   }
   /* End - Review bar */
 /* End - collected books */
