@@ -275,16 +275,39 @@ body{
 .parent_info_review{
   display: inline-block;
   width: 40%;
-}
-.parent_info_review img {
-  width: 20%;
-}
-.parent_info_review p {
+  border: solid #CFC1AB;
+  border-width: max(2.5px,0.5vw);
+  border-radius: 10px;
+  margin: 5% 2% 2.5% 0;
+  background-color: white;
   text-align: left;
 }
-.parent_description{
+.parent_info_review img {
   display: inline-block;
+  width: 100%;
+  padding: 3%;
+  background-color: #354449;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom: solid #CFC1AB max(2.5px,0.5vw);
+  box-sizing: border-box;
+}
+.parent_info_review p {
+  display: inline-block;
+  text-align: left;
+  padding: 1%;
+}
+.parent_des_rev{
+  display: inline-block;
+  margin: 5% 0 0 2%;
   width: 40%;
   vertical-align: top;
+}
+.parent_description h2{
+  font-size: max(20px,4vw);
+  text-decoration: underline;
+}
+.parent_description{
+  
 }
 /* End - Review page */
