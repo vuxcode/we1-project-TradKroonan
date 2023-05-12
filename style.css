@@ -1,98 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
-/* Home */
-body{
-  background-color: #354449;
-  font-family: 'Kanit', sans-serif;
-}
-.info_parent {
-  width:max(150px,90%);
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #EAE6E5;
-  margin-bottom: 100px;
-  border-width: max(2.5px,0.5vw);
-  border-radius: 40px;
-  border-style: solid;
-  border-color: #CFC1AB;
-  text-align: center;
-  box-sizing: border-box;
-}
-.parent_bottom {
-  display: inline-block;
-  width: 100%;
-  height: 100px;
-}
-
-  /* Welcome */
-  .welcome_parent {
-    display: inline-block;
-    width: max(100px,40%);
-    margin: 4% 2% 5% 0;
-  }
-  .welcome_h2 {
-    display: inline-block;
-    width: 100%;
-    font-size: max(20px,4vw);
-    padding: 5% 0 5%;
-    background-color: white;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-  }
-  .welcome_p{
-    text-align: left;
-    font-size: max(15px,2vw);
-    border-top-style: solid;
-    border-width: max(2.5px,0.5vw);
-    border-color: #CFC1AB;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    padding: 2%;
-    background-color: white;
-  }
-  /* End - Welcome */
-
-  /* Latest Review */
-  .latest_parent {
-    display: inline-block;
-    width: max(130px,40%);
-    margin: 4% 0 0 2%;
-    font-size: max(12px,2vw);
-    box-sizing: border-box;
-    
-  }
-  .latest_h2 {
-    display: inline-block;
-    padding: 4% 0;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-    width: 100%;
-    box-sizing: border-box;
-    background-color: white; 
-  }
-  .latest_p{
-    text-align: center;
-    font-size: max(12px,3vw);
-    border-style: solid;
-    border-width: 0 max(2px,0.5vw) max(1px,0.2vw);
-    border-color: #CFC1AB;
-    background-color: white;
-    box-sizing: border-box
-  }
-  .latest_var_top {
-    border-top: solid max(2px,0.5vw) #CFC1AB;
-  }
-  .latest_var_bottom {
-    border-bottom-width: max(2px,0.5vw);
-    border-bottom-left-radius: 10px; 
-    border-bottom-right-radius: 10px;
-  }
-  .latest_p:hover {
-    box-shadow: inset 1px 1px 15px #CFC1AB;
-  }
-  /* End - Latest Review */
-/* End - Home */
-
 /* Global */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -109,10 +16,32 @@ a {
   text-decoration: none;
   color: #BFAB25;
 }
+  /* Info-parent */
+  .info_parent {
+    width:max(150px,90%);
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #EAE6E5;
+    margin-bottom: 100px;
+    border-width: max(2.5px,0.5vw);
+    border-radius: 40px;
+    border-style: solid;
+    border-color: #CFC1AB;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  .parent_bottom {
+    display: inline-block;
+    width: 100%;
+    height: 100px;
+  }
+  /* End - Info-parent */
+
   /* Social media */
   .social{
     display:block;
     background-color: gray;
+    margin-top: 100%;
     width: max(150px,100%);
     text-align: center;
   }
@@ -198,6 +127,80 @@ a {
   /* End - Menu */
 /* End - Global */
 
+/* Home */
+body{
+  background-color: #354449;
+  font-family: 'Kanit', sans-serif;
+}
+  /* Welcome */
+  .welcome_parent {
+    display: inline-block;
+    width: max(100px,40%);
+    margin: 4% 2% 5% 0;
+  }
+  .welcome_h2 {
+    display: inline-block;
+    width: 100%;
+    font-size: max(20px,4vw);
+    padding: 5% 0 5%;
+    background-color: white;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+  .welcome_p{
+    text-align: left;
+    font-size: max(15px,2vw);
+    border-top-style: solid;
+    border-width: max(2.5px,0.5vw);
+    border-color: #CFC1AB;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 2%;
+    background-color: white;
+  }
+  /* End - Welcome */
+
+  /* Latest Review */
+  .latest_parent {
+    display: inline-block;
+    width: max(130px,40%);
+    margin: 4% 0 0 2%;
+    font-size: max(12px,2vw);
+    box-sizing: border-box;
+    
+  }
+  .latest_h2 {
+    display: inline-block;
+    padding: 4% 0;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: white; 
+  }
+  .latest_p{
+    text-align: center;
+    font-size: max(12px,3vw);
+    border-style: solid;
+    border-width: 0 max(2px,0.5vw) max(1px,0.2vw);
+    border-color: #CFC1AB;
+    background-color: white;
+    box-sizing: border-box
+  }
+  .latest_var_top {
+    border-top: solid max(2px,0.5vw) #CFC1AB;
+  }
+  .latest_var_bottom {
+    border-bottom-width: max(2px,0.5vw);
+    border-bottom-left-radius: 10px; 
+    border-bottom-right-radius: 10px;
+  }
+  .latest_p:hover {
+    box-shadow: inset 1px 1px 15px #CFC1AB;
+  }
+  /* End - Latest Review */
+/* End - Home */
+
 /* Collected books */
   /* Review bar */
   .review_bar {
@@ -217,7 +220,7 @@ a {
     display: block;
     width: 19%;
     border: solid #CFC1AB;
-    border-right: none;
+    border-width: max(1.5px,0.3vw);
     float: left;
     box-sizing: border-box;
   }
@@ -265,6 +268,23 @@ a {
     padding: 1%;
     padding-left: 2%;
   }
-
   /* End - Review bar */
 /* End - collected books */
+
+/* Review page */
+.parent_info_review{
+  display: inline-block;
+  width: 40%;
+}
+.parent_info_review img {
+  width: 20%;
+}
+.parent_info_review p {
+  text-align: left;
+}
+.parent_description{
+  display: inline-block;
+  width: 40%;
+  vertical-align: top;
+}
+/* End - Review page */
