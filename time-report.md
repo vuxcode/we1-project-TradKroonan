@@ -2,7 +2,12 @@
 
 > Write about what you have done and how long you have worked on each part of the project.
 
-30h-18.5h = 11.5h
+30h-19.5h = 10.5h
+
+2022-05-13 16:55 Arbetade i 1 h.
+- Klassen "border"
+- Början av kontakt
+
 2022-05-12 18:20 Arbetade i 0.5 h.
 - Fixa bugg
 
