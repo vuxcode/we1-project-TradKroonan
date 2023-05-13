@@ -5,14 +5,44 @@
   <link href="style.css" rel="stylesheet">
 </head>
 <body>
-  <nav>
+  <div class="logo">
+    <img class="border" src="halv_putte.jpg" alt="Logo">
+  </div>
+  <nav class="nav_menu">
     <ul>
-      <li><a href="index.html">Hem</a></li>
-      <li><a href="collect_movie.html">Film</a></li>
-      <li><a href="collect_serie.html">Serie</a></li>
-      <li><a href="collect_book.html">Bok</a></li>
-      <li><a href="contact.html">Kontakt info</a></li>
+      <a class="border" href="index.html">Hem</a>
+      <a class="border" href="collect_movie.html">Film</a>
+      <a class="border" href="collect_serie.html">Serie</a>
+      <a class="border" href="collect_book.html">Böcker</a>
+      <a class="border" href="contact.html">Kontakt info</a>
     </ul>
   </nav>
+  <form action="" method="POST" class="parent border">
+    <label>
+      <fieldset class="border">
+        <legend>Kontakta mig</legend>
+        <div>
+          Email:<tb>
+          <input type="email">
+        </div>
+        <label for="message">Ditt meddelande:</label>
+        <div>
+          <textarea id="message" name="message" rows="4"></textarea>
+        </div>
+      </fieldset>
+      <article class="border">
+        <h3>Thank you</h3>
+        <p style="text-align: left;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+          Aenean commod ementum semper nisi. Aenean vulputate eleifend tellus.
+          Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
+          semper nisi. Aenean vulputate eleifend tellus.
+          Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
+      </article>
+      <div id="send">
+        <input type="submit" value="Skicka">
+      </div>
+    </label>
+  </form>
+  
 </body>
 </html>
