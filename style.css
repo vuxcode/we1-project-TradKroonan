@@ -103,16 +103,26 @@ article p {
     list-style-type: none;
     text-align: center;
   }
-  .nav_menu ul a {
+  .nav_menu li {
     display: inline-block;
-    min-width: 50px;
-    padding: 1% 2%;
-    margin: 2% 0 2% 2%;
-    border-width: max(1.5px,0.3vw);
-    border-color: #BFAB25;
-    font-size: max(12px,3vw);
+    margin: 2% 2% 2% 2%;
+    box-sizing: border-box;
+    white-space: pre;
   }
-  .nav_menu ul a:hover {
+  
+  
+  .nav_menu a {
+    display: inline-block;
+    /* min-width: 50px; */
+    padding: 2% 5%;
+    font-size: max(12px,3vw);
+    border-radius: 5px;
+    border-color: #BFAB25;
+    border-width: max(1.5px,0.3vw);
+    box-sizing: border-box;
+  }
+  
+  .nav_menu a:hover {
     box-shadow: inset 1px 1px 15px #CFC1AB;
   }
   /* End - Menu */
@@ -346,12 +356,13 @@ body{
     width: 100%;
     max-width: 307px;
     padding: 2%;
-    /* Gör sig av med blipan under textarean */
+    /* Gör sig av med glipan under textarean */
     vertical-align: top; 
     box-sizing: border-box;
     background-color: #354449;
     border:solid #BFAB25 max(2.5px,0.3vw);
     color: #BFAB25;
+    font-size: medium;
   }
   #contact_head {
     padding: 0 2%; 
