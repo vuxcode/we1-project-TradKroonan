@@ -2,7 +2,11 @@
 
 > Write about what you have done and how long you have worked on each part of the project.
 
-30h-21h = 9h
+30h-21.5h = 8.5h
+
+2022-05-14 18:40 Arbetade i 0.5 h.
+- validering
+  - Problem med meny
 
 2022-05-14 15:05 Arbetade i 0.5 h.
 - Kontakt - design
