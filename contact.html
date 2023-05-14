@@ -21,26 +21,32 @@
     <label>
       <fieldset class="border">
         <legend>Kontakta mig</legend>
-        <div>
-          Email:<tb>
-          <input type="email">
+        <div style="display: inline-block; box-sizing: border-box;">
+          Email:
+          <input class="message" type="email">
         </div>
-        <label for="message">Ditt meddelande:</label>
         <div>
-          <textarea id="message" name="message" rows="4"></textarea>
+          <label for="message">Ditt meddelande:</label>
         </div>
+          <div style="display: inline-block;">
+            <div>
+              <textarea class="message" name="message" rows="10"></textarea>
+            </div>
+            <div>
+              <input type="submit" value="Skicka">
+            </div>
+          </div>
+        
+        
       </fieldset>
       <article class="border">
-        <h3>Thank you</h3>
+        <h2 class="border">Thank you</h2>
         <p style="text-align: left;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
           Aenean commod ementum semper nisi. Aenean vulputate eleifend tellus.
           Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
           semper nisi. Aenean vulputate eleifend tellus.
           Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
       </article>
-      <div id="send">
-        <input type="submit" value="Skicka">
-      </div>
     </label>
   </form>
   
