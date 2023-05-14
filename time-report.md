@@ -2,7 +2,10 @@
 
 > Write about what you have done and how long you have worked on each part of the project.
 
-30h-20.5h = 19.5h
+30h-21h = 9h
+
+2022-05-14 15:05 Arbetade i 0.5 h.
+- Kontakt - design
 
 2022-05-14 13:30 Arbetade i 1 h.
 - Kontakt - design
