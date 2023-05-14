@@ -10,7 +10,7 @@ REMEMBER TO "COMMIT" YOUR CHANGES REGULARLY TO SHOW HOW YOU HAVE BUILT THIS PROJ
 
 # Project Notes
 
-> You can use this section of the file to keep notes about your project as you work on it
+Inte riktigt nöjd med menyn efter valideringsproblemet
 
 # Project Summary
 
