@@ -3,6 +3,7 @@
 *{
   margin: 0;
   padding: 0;
+  font-family: 'Kanit', sans-serif;
 }
 h2 {
   color: #BFAB25;
@@ -22,6 +23,10 @@ a {
   box-sizing: border-box;
   border-radius: 10px;
 }
+article p {
+  padding: 0 1% 1% 2%;
+}
+
   /* Info-parent */
   .parent {
     width:max(180px,90%);
@@ -116,7 +121,7 @@ a {
 /* Home */
 body{
   background-color: #354449;
-  font-family: 'Kanit', sans-serif;
+  
 }
   /* Welcome */
   .welcome_parent {
@@ -141,7 +146,6 @@ body{
     border-color: #CFC1AB;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    padding: 2%;
     background-color: white;
   }
   /* End - Welcome */
@@ -169,6 +173,7 @@ body{
     font-size: max(14px,3vw);
     border-width: 0 max(2px,0.5vw) max(1px,0.2vw);
     background-color: white;
+    border-radius: 0;
   }
   .latest_var_top {
     border-top: solid max(2px,0.5vw) #CFC1AB;
@@ -245,7 +250,6 @@ body{
     font-size: max(10px,1.9vw);
     font-weight: 500;
     text-align: left;
-    padding: 0 1% 1% 2%;
   }
   /* End - Review bar */
 /* End - collected books */
@@ -310,12 +314,14 @@ body{
   /* The form */
   .parent fieldset{
     display: inline-block;
-    width: max(150px,35%);
+    width: max(150px,40%);
     padding: 2%;
-    margin: 2% 1% 2% 2%;
+    margin: 2% 1%;
     text-align: center;
     vertical-align: top;
+    background-color: white;
     box-sizing: border-box;
+    color:#BFAB25;
   }
   .parent input {
     display: inline-block;
@@ -323,22 +329,43 @@ body{
   }
   .parent label {
     display: inline-block;
+    font-size: max(16px,2vw);
   }
   .parent label article {
     display: inline-block;
     width: max(150px,40%);
-    margin: 3% 2% 2% 1%;
+    margin: 3.5% 2% 5% 1%;
     background-color: white;
   }
-  
   .parent label article h2 {
     border-width: 0 0 max(2.5px,0.5vw) 0;
     border-radius: 0;
   }
-
   .message {
+    display: inline-block;
     width: 100%;
+    max-width: 307px;
+    padding: 2%;
+    /* Gör sig av med blipan under textarean */
+    vertical-align: top; 
     box-sizing: border-box;
+    background-color: #354449;
+    border:solid #BFAB25 max(2.5px,0.3vw);
+    color: #BFAB25;
+  }
+  #contact_head {
+    padding: 0 2%; 
+    font-size: max(20px,2vw);
+  }
+  #send {
+    color: #BFAB25;
+    background-color: #354449;
+    font-size: max(20px,2vw);
+    border-radius: 5px;
+    border:solid #BFAB25 max(2.5px,0.3vw);
+  }
+  #send:hover {
+    box-shadow: inset 1px 1px 15px black;
   }
   /* End - The form */
 /* End - Contact page */

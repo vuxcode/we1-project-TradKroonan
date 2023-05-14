@@ -20,24 +20,22 @@
   <form action="" method="POST" class="parent border">
     <label>
       <fieldset class="border">
-        <legend>Kontakta mig</legend>
-        <div style="display: inline-block; box-sizing: border-box;">
-          Email:
-          <input class="message" type="email">
+        <legend id="contact_head"><b>Kontakta mig</b></legend>
+        <div style="margin-bottom: 5%;">
+          <label>Email:</label>
+          <div>
+            <input class="message" type="email">
+          </div>
         </div>
         <div>
           <label for="message">Ditt meddelande:</label>
         </div>
-          <div style="display: inline-block;">
-            <div>
-              <textarea class="message" name="message" rows="10"></textarea>
-            </div>
-            <div>
-              <input type="submit" value="Skicka">
-            </div>
+          <div style="margin-bottom: 5%;">
+            <textarea class="message" name="message" rows="10" cols="40"></textarea>
           </div>
-        
-        
+          <div>
+            <input id="send" type="submit" value="Skicka">
+          </div>
       </fieldset>
       <article class="border">
         <h2 class="border">Thank you</h2>
