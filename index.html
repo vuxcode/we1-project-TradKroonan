@@ -7,20 +7,20 @@
 </head>
 <body>
   <div class="logo">
-    <img class="border" src="halv_putte.jpg" alt="Logo">
+    <img class="border" src="halv_putte.jpg" alt="Logotyp för Patriks recensionssida">
   </div>
   <nav class="nav_menu">
     <ul>
-      <li><a class="border" href="index.html">Hem</a></li>
-      <li><a class="border" href="collect_movie.html">Film</a></li>
-      <li><a class="border" href="collect_serie.html">Serie</a></li>
-      <li><a class="border" href="collect_book.html">Böcker</a></li>
-      <li><a class="border" href="contact.html">Kontakt info</a></li>
+      <li><a class="border" aria-label="Till startsidan" href="index.html">Hem</a>  </li>
+      <li><a class="border" aria-label="Till recensioner av filmer" href="collect_movie.html">Filmer</a></li>
+      <li><a class="border" aria-label="Till recensioner av serier" href="collect_serie.html">Serier</a></li>
+      <li><a class="border" aria-label="Till recensioner av böcker" href="collect_book.html">Böcker</a></li>
+      <li><a class="border" aria-label="Till sidan för kontakt info" href="contact.html">Kontakt info</a></li>
     </ul>
   </nav>
   <div class="parent border">
     <article class="welcome_parent">
-      <h2 class="welcome_h2">Welcome!</h2>
+      <h2 class="welcome_h2">Välkommen!</h2>
       <div class="welcome_p">
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
            Aenean commod ementum semper nisi. Aenean vulputate eleifend tellus.
@@ -29,19 +29,19 @@
       </div>
     </article>
     <article class="latest_parent">
-      <h2>Latest reviews!</h2>
+      <h2>Senaste recensioner!</h2>
       <figure>
         <div class="latest_p latest_var_top border" >
-          <a href="rev_bok1.html"><p style="padding: 2%;">Sagan om ringen</p></a>
+          <a aria-label="Till recension av XXX" href="rev_bok1.html"><p style="padding: 2%;">Sagan om ringen</p></a>
         </div>
         <div class="latest_p border">
-          <a href="#"><p style="padding: 2%;">The Night We Met</p></a>
+          <a aria-label="Till recension av XXX" href="#"><p style="padding: 2%;">The Night We Met</p></a>
         </div>
         <div class="latest_p border">
-          <a href="#"><p style="padding: 2%;">Crazy Nickelson</p></a>
+          <a aria-label="Till recension av XXX" href="#"><p style="padding: 2%;">Crazy Nickelson</p></a>
         </div>
         <div class="latest_p latest_var_bottom border">
-          <a href="#"><p style="padding: 2%;">The Frog Whom Barked</p></a>
+          <a aria-label="Till recension av XXX" href="#"><p style="padding: 2%;">The Frog Whom Barked</p></a>
         </div>
       </figure>
     </article>
@@ -49,24 +49,33 @@
   </div>
   <div class="social">
     <div>
-      <a href="#">
-        <img class="border" 
-        src="https://scontent.fgse1-1.fna.fbcdn.net/v/t39.8562-6/313408032_676073764084474_9080563414774037997_n.png?_nc_cat=1&ccb=1-7&_nc_sid=6825c5&_nc_ohc=MUHwX8OtIi8AX-j-pre&_nc_ht=scontent.fgse1-1.fna&oh=00_AfD0l47dNmIsoLijkm0S6EwOuT8EWXDLxBxi1qrBDJw1UA&oe=64609426"
+      <a href="#" aria-label="Instagram">
+        <img class="border"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/150px-Instagram_logo_2016.svg.png"
         alt="">
       </a>
     </div>
     <div>
-      <a href="#">
-        <svg class="border" viewBox="0 0 24 24">
+      <a href="#" aria-label="Twitter">
+        <svg class="border" viewBox="0 0 24 24" >
           <g>
-            <path d="M23.643 4.937c-.835.37-1.732.62-2.675.733.962-.576 1.7-1.49 2.048-2.578-.9.534-1.897.922-2.958 1.13-.85-.904-2.06-1.47-3.4-1.47-2.572 0-4.658 2.086-4.658 4.66 0 .364.042.718.12 1.06-3.873-.195-7.304-2.05-9.602-4.868-.4.69-.63 1.49-.63 2.342 0 1.616.823 3.043 2.072 3.878-.764-.025-1.482-.234-2.11-.583v.06c0 2.257 1.605 4.14 3.737 4.568-.392.106-.803.162-1.227.162-.3 0-.593-.028-.877-.082.593 1.85 2.313 3.198 4.352 3.234-1.595 1.25-3.604 1.995-5.786 1.995-.376 0-.747-.022-1.112-.065 2.062 1.323 4.51 2.093 7.14 2.093 8.57 0 13.255-7.098 13.255-13.254 0-.2-.005-.402-.014-.602.91-.658 1.7-1.477 2.323-2.41z"></path>
+            <path d="M23.643 4.937c-.835.37-1.732.62-2.675.733.962-.576 1.7-1.49
+             2.048-2.578-.9.534-1.897.922-2.958 1.13-.85-.904-2.06-1.47-3.4-1.47-2.572 
+             0-4.658 2.086-4.658 4.66 0 .364.042.718.12 
+             1.06-3.873-.195-7.304-2.05-9.602-4.868-.4.69-.63 1.49-.63 
+             2.342 0 1.616.823 3.043 2.072 3.878-.764-.025-1.482-.234-2.11-.583v.06c0 
+             2.257 1.605 4.14 3.737 4.568-.392.106-.803.162-1.227.162-.3 
+             0-.593-.028-.877-.082.593 1.85 2.313 3.198 4.352 3.234-1.595 1.25-3.604 
+             1.995-5.786 1.995-.376 0-.747-.022-1.112-.065 2.062 1.323 4.51 
+             2.093 7.14 2.093 8.57 0 13.255-7.098 13.255-13.254 0-.2-.005-.402-.014-.
+             602.91-.658 1.7-1.477 2.323-2.41z"></path>
           </g>
         </svg>
       </a>
     </div>
     <div style="margin-right: 0;">
-      <a href="#">
-        <img class="border" src="https://www.redditinc.com/assets/images/site/logo01.svg" alt="">
+      <a href="#" aria-label="Reddit">
+        <img class="border" src="https://www.redditinc.com/assets/images/site/logo01.svg">
       </a>
     </div>
   </div>

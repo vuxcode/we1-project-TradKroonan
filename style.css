@@ -7,6 +7,12 @@
   color: #BFAB25;
 }
 
+body{
+  background-color: #354449;
+  border: solid #BFAB25 max(1.5px,0.3vw);
+  position: relative;
+}
+
 a {
   text-decoration: none;
 }
@@ -35,7 +41,6 @@ article p {
   .social{
     display:flex;
     background-color: white;
-    margin-top: 100%;
     width: max(180px,100%);
     justify-content: center;
     border-top: solid max(1.5px,0.3vw) #BFAB25;
@@ -49,12 +54,13 @@ article p {
 
   .social a{
     display: inline-block;
-    height: max(30px,6vw);
+    height: max(30px,5vw);
+    box-sizing: border-box;
   }
 
   .social div svg{
-    width: max(30px,6vw);
-    height: max(30px,6vw);
+    width: max(30px,5vw);
+    height: max(30px,5vw);
     padding: 10%;
     background-color: white;
     border-width: max(1.5px,0.3vw);
@@ -64,12 +70,13 @@ article p {
     fill: rgb(29, 155, 240);
   }
   .social div img{
-    width: max(30px,6vw);
-    height: max(30px,6vw);
-    padding: 3%;
+    width: max(30px,5vw);
+    height: max(30px,5vw);
+    padding: 7%;
     background-color: white;
     border-color: #BFAB25;
     border-width: max(1.5px,0.3vw);
+
   }
   /* End - Social media */
 
@@ -127,10 +134,6 @@ article p {
 /* End - Global */
 
 /* Home */
-body{
-  background-color: #354449;
-  border: solid #BFAB25 max(1.5px,0.3vw);
-}
   /* Welcome */
   .welcome_parent {
     display: inline-block;
@@ -199,7 +202,16 @@ body{
   /* End - Latest Review */
 /* End - Home */
 
-/* Collected books */
+/* Collected reviews */
+  /* Header */
+  #header {
+    display: inline-block;
+    background-color: white;
+    padding: 1% 2%;
+    margin-top: 2%;
+    font-size: max(11px,3vw);
+  }
+  /* End - Headre */
   /* Review bar */
   .a_review_bar{
     display: inline-block; 
@@ -260,7 +272,7 @@ body{
     text-align: left;
   }
   /* End - Review bar */
-/* End - collected books */
+/* End - collected reviews */
 
 /* Review page */
   /* Img & info */
