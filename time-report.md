@@ -2,7 +2,7 @@
 
 > Write about what you have done and how long you have worked on each part of the project.
 
-30h-21.5h = 8.5h
+30h-22h = 8h
 
 2022-05-15 11:00 Arbetade i 0.5 h.
 - Meny
