@@ -2,7 +2,10 @@
 
 > Write about what you have done and how long you have worked on each part of the project.
 
-30h-22h = 8h
+30h-22.5h = 7.5h
+
+2022-05-15 15:00 Arbetade i 0.5 h.
+- Funktionsvariation
 
 2022-05-15 11:00 Arbetade i 0.5 h.
 - Meny
