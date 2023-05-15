@@ -4,19 +4,11 @@
   margin: 0;
   padding: 0;
   font-family: 'Kanit', sans-serif;
-}
-h2 {
   color: #BFAB25;
 }
-h3 {
-  color: #BFAB25;
-}
-p {
-  color: #BFAB25;
-}
+
 a {
   text-decoration: none;
-  color: #BFAB25;
 }
 .border{
   border: solid #CFC1AB max(2.5px,0.5vw);
@@ -41,16 +33,18 @@ article p {
 
   /* Social media */
   .social{
-    display:block;
-    background-color: gray;
+    display:flex;
+    background-color: white;
     margin-top: 100%;
-    width: max(150px,100%);
-    text-align: center;
+    width: max(180px,100%);
+    justify-content: center;
+    border-top: solid max(1.5px,0.3vw) #BFAB25;
   }
   .social div{
-    display: inline-block;
-    margin: 3% 10% 3% 0;
+    display: flex;
+    margin: 3% 10% 3% 0; 
     box-sizing: border-box;
+    align-items: center;
   }
 
   .social a{
@@ -59,19 +53,23 @@ article p {
   }
 
   .social div svg{
-    width: max(30px,5vw);
-    height: max(30px,5vw);
+    width: max(30px,6vw);
+    height: max(30px,6vw);
     padding: 10%;
     background-color: white;
+    border-width: max(1.5px,0.3vw);
+    border-color: #BFAB25;
   }
   .social path{
     fill: rgb(29, 155, 240);
   }
   .social div img{
-    width: max(30px,5vw);
-    height: max(30px,5vw);
-    padding: 10%;
+    width: max(30px,6vw);
+    height: max(30px,6vw);
+    padding: 3%;
     background-color: white;
+    border-color: #BFAB25;
+    border-width: max(1.5px,0.3vw);
   }
   /* End - Social media */
 
@@ -109,12 +107,12 @@ article p {
     box-sizing: border-box;
     white-space: pre;
   }
-  
+
   
   .nav_menu a {
     display: inline-block;
     /* min-width: 50px; */
-    padding: 2% 5%;
+    padding: 0.5vw 1vw;
     font-size: max(12px,3vw);
     border-radius: 5px;
     border-color: #BFAB25;
@@ -131,7 +129,7 @@ article p {
 /* Home */
 body{
   background-color: #354449;
-  
+  border: solid #BFAB25 max(1.5px,0.3vw);
 }
   /* Welcome */
   .welcome_parent {
@@ -346,10 +344,10 @@ body{
     width: max(150px,40%);
     margin: 3.5% 2% 5% 1%;
     background-color: white;
+    border-radius: 10px;
   }
   .parent label article h2 {
-    border-width: 0 0 max(2.5px,0.5vw) 0;
-    border-radius: 0;
+    border-bottom:solid #CFC1AB max(2.5px,0.5vw);
   }
   .message {
     display: inline-block;
