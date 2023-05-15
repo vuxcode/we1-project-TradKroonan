@@ -4,6 +4,10 @@
 
 30h-21.5h = 8.5h
 
+2022-05-15 11:00 Arbetade i 0.5 h.
+- Meny
+- Sociala medier
+
 2022-05-14 18:40 Arbetade i 0.5 h.
 - validering
   - Problem med meny
