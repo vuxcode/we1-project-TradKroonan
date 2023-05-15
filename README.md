@@ -11,6 +11,7 @@ REMEMBER TO "COMMIT" YOUR CHANGES REGULARLY TO SHOW HOW YOU HAVE BUILT THIS PROJ
 # Project Notes
 
 Inte riktigt nöjd med menyn efter valideringsproblemet
+- Löst detta
 
 # Project Summary
 
