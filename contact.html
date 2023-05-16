@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset="UTF-8">
   <title>Kontakt</title>
   <link href="style.css" rel="stylesheet">
 </head>
@@ -10,14 +11,14 @@
   </div>
   <nav class="nav_menu">
     <ul>
-      <a class="border" href="index.html">Hem</a>
-      <a class="border" href="collect_movie.html">Film</a>
-      <a class="border" href="collect_serie.html">Serie</a>
-      <a class="border" href="collect_book.html">Böcker</a>
-      <a class="border" href="contact.html">Kontakt info</a>
+      <li><a class="border" aria-label="Till startsidan" href="index.html">Hem</a></li>
+      <li><a class="border" aria-label="Till recensioner av filmer" href="collect_movie.html">Filmer</a></li>
+      <li><a class="border" aria-label="Till recensioner av serier" href="collect_serie.html">Serier</a></li>
+      <li><a class="border" aria-label="Till recensioner av böcker" href="collect_book.html">Böcker</a></li>
+      <li><a class="border" aria-label="Till sidan för kontakt info" href="contact.html">Kontakt info</a></li>
     </ul>
   </nav>
-  <form action="" method="POST" class="parent border">
+  <form action="https://formspree.io/f/xlekvwol" method="POST" class="parent border">
     <label>
       <fieldset class="border">
         <legend id="contact_head"><b>Kontakta mig</b></legend>
@@ -37,8 +38,8 @@
             <input id="send" type="submit" value="Skicka">
           </div>
       </fieldset>
-      <article class="border">
-        <h2 class="border">Thank you</h2>
+      <article>
+        <h2>Thank you</h2>
         <p style="text-align: left;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
           Aenean commod ementum semper nisi. Aenean vulputate eleifend tellus.
           Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
@@ -47,6 +48,7 @@
       </article>
     </label>
   </form>
-  
+   <!-- IForm - Karta -->
+
 </body>
 </html>

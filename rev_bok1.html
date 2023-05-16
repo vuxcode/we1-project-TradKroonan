@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Blog</title>
   <link href="style.css" rel="stylesheet">
 </head>
@@ -10,11 +12,11 @@
   </div>
   <nav class="nav_menu">
     <ul>
-      <a class="border" href="index.html">Hem</a>
-      <a class="border" href="collect_movie.html">Film</a>
-      <a class="border" href="collect_serie.html">Serie</a>
-      <a class="border" href="collect_book.html">Böcker</a>
-      <a class="border" href="contact.html">Kontakt info</a>
+      <li><a class="border" aria-label="Till startsidan" href="index.html">Hem</a></li>
+      <li><a class="border" aria-label="Till recensioner av filmer" href="collect_movie.html">Filmer</a></li>
+      <li><a class="border" aria-label="Till recensioner av serier" href="collect_serie.html">Serier</a></li>
+      <li><a class="border" aria-label="Till recensioner av böcker" href="collect_book.html">Böcker</a></li>
+      <li><a class="border" aria-label="Till sidan för kontakt info" href="contact.html">Kontakt info</a></li>
     </ul>
   </nav>
   <div class="parent border">
@@ -53,5 +55,39 @@
       </div>
     </div>
   </div>
+  <footer class="social">
+    <nav>
+      <div>
+        <a href="#" aria-label="Instagram">
+          <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/150px-Instagram_logo_2016.svg.png"
+          alt="">
+        </a>
+      </div>
+      <div>
+        <a href="#" aria-label="Twitter">
+          <svg viewBox="0 0 24 24" >
+            <g>
+              <path d="M23.643 4.937c-.835.37-1.732.62-2.675.733.962-.576 1.7-1.49 2.048-2.578-.9.534-1.897.922-2.958 1.13-.85-.904-2.06-1.47-3.4-1.47-2.572 0-4.658 2.086-4.658 4.66 0 .364.042.718.12 1.06-3.873-.195-7.304-2.05-9.602-4.868-.4.69-.63 1.49-.63 2.342 0 1.616.823 3.043 2.072 3.878-.764-.025-1.482-.234-2.11-.583v.06c0 2.257 1.605 4.14 3.737 4.568-.392.106-.803.162-1.227.162-.3 0-.593-.028-.877-.082.593 1.85 2.313 3.198 4.352 3.234-1.595 1.25-3.604 1.995-5.786 1.995-.376 0-.747-.022-1.112-.065 2.062 1.323 4.51 2.093 7.14 2.093 8.57 0 13.255-7.098 13.255-13.254 0-.2-.005-.402-.014-.602.91-.658 1.7-1.477 2.323-2.41z"></path>
+            </g>
+          </svg>
+        </a>
+      </div>
+      <div>
+        <a href="#" aria-label="Reddit">
+          <img  src="https://www.redditinc.com/assets/images/site/logo01.svg" alt="Reddit">
+        </a>
+      </div>
+      <div style="margin-right: 0;">
+        <a href="#" aria-label="Reddit">
+          <svg viewBox="0 0 512 512">
+            <g>
+              <path fill="currentColor" d="M464 64H48C21.5 64 0 85.5 0 112v288c0 26.5 21.5 48 48 48h416c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zM48 96h416c8.8 0 16 7.2 16 16v41.4c-21.9 18.5-53.2 44-150.6 121.3-16.9 13.4-50.2 45.7-73.4 45.3-23.2.4-56.6-31.9-73.4-45.3C85.2 197.4 53.9 171.9 32 153.4V112c0-8.8 7.2-16 16-16zm416 320H48c-8.8 0-16-7.2-16-16V195c22.8 18.7 58.8 47.6 130.7 104.7 20.5 16.4 56.7 52.5 93.3 52.3 36.4.3 72.3-35.5 93.3-52.3 71.9-57.1 107.9-86 130.7-104.7v205c0 8.8-7.2 16-16 16z"></path>
+            </g>
+          </svg>
+        </a>
+      </div>
+    </nav>
+  </footer>
 </body>
 </html>

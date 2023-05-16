@@ -10,15 +10,13 @@
 body{
   background-color: #354449;
   border: solid #BFAB25 max(1.5px,0.3vw);
-  position: relative;
-  min-height: 200vh;
 }
 
 a {
   text-decoration: none;
 }
 .border{
-  border: solid #CFC1AB max(2.5px,0.5vw);
+  border: solid #BFAB25 max(2.5px,0.5vw);
   box-sizing: border-box;
   border-radius: 10px;
 }
@@ -40,12 +38,11 @@ article p {
 
   /* Social media */
   footer{
-    background-color: white;
+    margin-top: max(100px,20%);
+    background-color: #EAE6E5;
     width: max(180px,100%);
     
     border-top: solid max(1.5px,0.3vw) #BFAB25;
-    position: absolute;
-    bottom: 0;
   }
   footer nav {
     display:flex;
@@ -69,22 +66,16 @@ article p {
   footer svg{
     width: max(30px,4vw);
     height: max(30px,4vw);
-    background-color: white;
+    background-color: #EAE6E5;
   }
   footer img{
     width: max(30px,4vw);
     height: max(30px,4vw);
-    background-color: white;
+    background-color: #EAE6E5;
   }
   /* End - Social media */
 
-  /* Menu */
-  .nav_menu {
-    display: inline-block;
-    background-color: #354449;
-    text-align: center;
-    width: 100%;
-  }
+  /* Logo */
   .logo {
     display: inline-block;
     width: max(180px,100%);
@@ -100,6 +91,16 @@ article p {
     margin-left: auto;
     margin-right: auto;
   }
+  /* End - Logo */
+
+  /* Menu */
+  .nav_menu {
+    display: inline-block;
+    background-color: #354449;
+    text-align: center;
+    width: 100%;
+    margin-bottom: min(1%,10px);
+  }
   .nav_menu ul {
     display: inline-block;
     width:max(180px,80%);
@@ -112,21 +113,18 @@ article p {
     box-sizing: border-box;
     white-space: pre;
   }
-
-  
   .nav_menu a {
     display: inline-block;
     /* min-width: 50px; */
-    padding: 0.5vw 1vw;
+    padding: max(1px,0.5vw) max(2px,1vw);
     font-size: max(12px,3vw);
     border-radius: 5px;
     border-color: #BFAB25;
     border-width: max(1.5px,0.3vw);
     box-sizing: border-box;
   }
-  
   .nav_menu a:hover {
-    box-shadow: inset 1px 1px 15px #CFC1AB;
+    box-shadow: inset 1px 1px 15px #BFAB25;
   }
   /* End - Menu */
 /* End - Global */
@@ -137,25 +135,21 @@ article p {
     display: inline-block;
     width: max(155px,40%);
     margin: 4% 2% 5% 2%;
+    background-color: #354449;
+    border-radius: 10px;
   }
   .welcome_h2 {
     display: inline-block;
     width: 100%;
     font-size: max(20px,4vw);
     padding: 5% 0 5%;
-    background-color: white;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
   }
   .welcome_p{
     text-align: left;
     font-size: max(15px,2vw);
     border-top-style: solid;
     border-width: max(2.5px,0.5vw);
-    border-color: #CFC1AB;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    background-color: white;
+    border-color: #BFAB25;
   }
   /* End - Welcome */
 
@@ -175,17 +169,17 @@ article p {
     border-top-left-radius: 10px;
     width: 100%;
     box-sizing: border-box;
-    background-color: white; 
+    background-color: #354449; 
   }
   .latest_p{
     text-align: center;
     font-size: max(14px,3vw);
     border-width: 0 max(2px,0.5vw) max(1px,0.2vw);
-    background-color: white;
+    background-color: #354449;
     border-radius: 0;
   }
   .latest_var_top {
-    border-top: solid max(2px,0.5vw) #CFC1AB;
+    border-top: solid max(2px,0.5vw) #BFAB25;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
   }
@@ -195,7 +189,7 @@ article p {
     border-bottom-right-radius: 10px;
   }
   .latest_p:hover {
-    box-shadow: inset 1px 1px 15px #CFC1AB;
+    box-shadow: inset 1px 1px 15px #BFAB25;
   }
   /* End - Latest Review */
 /* End - Home */
@@ -204,7 +198,7 @@ article p {
   /* Header */
   #header {
     display: inline-block;
-    background-color: white;
+    background-color: #354449;
     padding: 1% 2%;
     margin-top: 2%;
     font-size: max(11px,3vw);
@@ -220,7 +214,7 @@ article p {
     width: 90%;
     padding: 2%;
     border-width: max(1.5px,0.3vw);
-    background-color:#354449;
+    background-color:#23282b;
     text-align: left;
   }
   .collected_nev li a {
@@ -244,7 +238,7 @@ article p {
     display: inline-block;
     width: 80%;
     border-top-left-radius: 0;
-    background-color: white;
+    background-color: #354449;
     vertical-align: top;
     text-align: center;
   }
@@ -256,14 +250,14 @@ article p {
     border-top-style: none;
     border-left-style: none;
     border-radius: 0;
-    background-color: white;
+    background-color: #EAE6E5;
     vertical-align: top;
     box-sizing: border-box;
   }
   .piece_rating {
     display: inline-block;
     width: 25%;
-    border-bottom: solid #CFC1AB max(1px,0.2vw);
+    border-bottom: solid #BFAB25 max(1px,0.2vw);
     vertical-align: top;
     box-sizing: border-box;
     font-size: max(11px,3vw);
@@ -278,10 +272,11 @@ article p {
   /* Img & info */
   .parent_info_review{
     display: inline-block;
-    width: 40%;
-    margin: 5% 2% 2.5% 0;
-    background-color: white;
+    width: max(150px,40%);
+    margin: 5% 1% 2.5% 1%;
+    background-color: #354449;
     text-align: left;
+    box-sizing: border-box;
   }
   .parent_info_review img {
     display: inline-block;
@@ -290,40 +285,44 @@ article p {
     background-color: #354449;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
-    border-bottom: solid #CFC1AB max(2.5px,0.5vw);
+    border-bottom: solid #BFAB25 max(2.5px,0.5vw);
     box-sizing: border-box;
   }
   .parent_info_review p {
     display: inline-block;
     text-align: left;
     padding: 1%;
-    font-size: max(10px,1.9vw);
+    font-size: max(15px,2vw);
   }
   /* End - Img & Info */
 
   /* Description & review */
   .parent_des_rev{
     display: inline-block;
-    margin: 4% 0 0 2%;
-    width: 40%;
+    margin: 4% 1% 0 1%;
+    width: max(150px,40%);
     vertical-align: top;
+    box-sizing: border-box;
   }
   .parent_des_rev h2{
     font-size: max(20px,4vw);
     text-decoration: underline;
+    background-color: #354449;
+    border-radius: 10px;
+    margin-bottom: 2%;
   }
   .des_rev{
     display: inline-block;
-    background-color: white;
-    width: 100%;
+    background-color: #23282b;
     margin-bottom: 4%;
+    box-sizing: border-box;
   }
   .des_rev h3 {
-    border-bottom: solid #CFC1AB max(1px,0.2vw);
+    border-bottom: solid #BFAB25 max(1px,0.2vw);
     font-size: max(20px,2vw);
   }
   .des_rev p {
-    font-size: max(10px,1.9vw);
+    font-size: max(12px,1.9vw);
     padding: 1%;
     padding-left: 2%;
   }
@@ -339,7 +338,7 @@ article p {
     margin: 2% 1%;
     text-align: center;
     vertical-align: top;
-    background-color: white;
+    background-color: #23282b;
     box-sizing: border-box;
     color:#BFAB25;
   }
@@ -355,11 +354,11 @@ article p {
     display: inline-block;
     width: max(150px,40%);
     margin: 3.5% 2% 5% 1%;
-    background-color: white;
+    background-color: #354449;
     border-radius: 10px;
   }
   .parent label article h2 {
-    border-bottom:solid #CFC1AB max(2.5px,0.5vw);
+    border-bottom:solid #BFAB25 max(2.5px,0.5vw);
   }
   .message {
     display: inline-block;
