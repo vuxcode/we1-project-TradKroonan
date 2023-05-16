@@ -2,7 +2,10 @@
 
 > Write about what you have done and how long you have worked on each part of the project.
 
-30h-23h = 7h
+30h-23.5h = 6.5h
+
+2022-05-16 11:00 Arbetade i 0.5 h.
+- Footer (sociala medier) nästan löst
 
 2022-05-16 9:30 Arbetade i 0.5 h.
 - Validation - <li> täcker <a>
