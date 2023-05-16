@@ -23,6 +23,7 @@ a {
 }
 article p {
   padding: 0 1% 1% 2%;
+  text-align: left;
 }
 
   /* Info-parent */
@@ -213,18 +214,21 @@ article p {
   }
   /* End - Headre */
   /* Review bar */
-  .a_review_bar{
-    display: inline-block; 
-    width: 90%;
-    margin: 3%;
+  .collected_nav{
+    display: inline-block;
+    margin: 3% 0 3% 0;
   }
   .review_bar {
     display: inline-block;
-    width: 100%;
+    width: 90%;
     padding: 2%;
     border-width: max(1.5px,0.3vw);
     background-color:#354449;
     text-align: left;
+  }
+  .collected_nev li a {
+    display: inline-block;
+    width: 90%;
   }
   .review_bar_img {
     display: inline-block;
@@ -251,7 +255,10 @@ article p {
     display: inline-block;
     width: 75%;
     font-size: max(11px,3vw);
-    border-bottom: solid #CFC1AB max(1px,0.2vw);
+    border-width: max(1px,0.2vw);
+    border-top-style: none;
+    border-left-style: none;
+    border-radius: 0;
     background-color: white;
     vertical-align: top;
     box-sizing: border-box;
@@ -260,16 +267,12 @@ article p {
     display: inline-block;
     width: 25%;
     border-bottom: solid #CFC1AB max(1px,0.2vw);
-    border-left:solid #CFC1AB max(1px,0.2vw);
     vertical-align: top;
     box-sizing: border-box;
     font-size: max(11px,3vw);
   }
-  .parent_piece article {
-    display: inline-block;
+  .parent_piece p {
     font-size: max(10px,1.9vw);
-    font-weight: 500;
-    text-align: left;
   }
   /* End - Review bar */
 /* End - collected reviews */
