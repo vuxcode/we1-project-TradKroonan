@@ -11,6 +11,7 @@ REMEMBER TO "COMMIT" YOUR CHANGES REGULARLY TO SHOW HOW YOU HAVE BUILT THIS PROJ
 # Project Notes
 
 Samma typ av valideringsfel som tidigare fast nu i collected_review p.g.a <a> täcker <li>
+Menyn flyttas för långt ner
 
 # Project Summary
 
