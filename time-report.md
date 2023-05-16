@@ -2,7 +2,10 @@
 
 > Write about what you have done and how long you have worked on each part of the project.
 
-30h-22.5h = 7.5h
+30h-23h = 7h
+
+2022-05-16 9:30 Arbetade i 0.5 h.
+- Validation - <li> täcker <a>
 
 2022-05-15 15:00 Arbetade i 0.5 h.
 - Funktionsvariation
