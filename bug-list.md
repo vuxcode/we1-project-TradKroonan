@@ -1,7 +1,7 @@
 # Bug List
 
 > Make a list of the things that don't work as expected. Keep a list of things that you have fixed and try to document how you solved them.
-1. <a>-tag under själva review-blocket
+
   
 **Löst!**
 Menyn kommer inte upp på dem andra sidorna 
@@ -28,4 +28,7 @@ Latest-review beter sig skumt. Lägger sig inte riktigt där jag vill ha den.
 
 Anchor-tag täcker mer i sociala medier än vad den borde
   - Hårdkodar height-value till att vara något som är väldigt likt storleken på “sociala media” - bilderna. Inte perfekt men tillräckligt
+ 
+<a>-tag under själva review-blocket
+  - Försvann samtidigt som jag ändrade från float till inline och när jag gjorde om strukturen för <li> och <a>
 
