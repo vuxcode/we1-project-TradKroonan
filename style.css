@@ -11,6 +11,7 @@ body{
   background-color: #354449;
   border: solid #BFAB25 max(1.5px,0.3vw);
   position: relative;
+  min-height: 200vh;
 }
 
 a {
@@ -32,52 +33,48 @@ article p {
     margin-left: auto;
     margin-right: auto;
     background-color: #EAE6E5;
-    margin-bottom: 100px;
     border-radius: 40px;
     text-align: center;
   }
   /* End - Info-parent */
 
   /* Social media */
-  .social{
-    display:flex;
+  footer{
     background-color: white;
     width: max(180px,100%);
-    justify-content: center;
+    
     border-top: solid max(1.5px,0.3vw) #BFAB25;
+    position: absolute;
+    bottom: 0;
   }
-  .social div{
+  footer nav {
+    display:flex;
+    justify-content: center;
+  }
+  footer nav div{
     display: flex;
     margin: 3% 10% 3% 0; 
     box-sizing: border-box;
     align-items: center;
   }
 
-  .social a{
+  footer a{
     display: inline-block;
-    height: max(30px,5vw);
+    height: max(30px,3vw);
     box-sizing: border-box;
   }
-
-  .social div svg{
-    width: max(30px,5vw);
-    height: max(30px,5vw);
-    padding: 10%;
-    background-color: white;
-    border-width: max(1.5px,0.3vw);
-    border-color: #BFAB25;
-  }
-  .social path{
+  footer path{
     fill: rgb(29, 155, 240);
   }
-  .social div img{
-    width: max(30px,5vw);
-    height: max(30px,5vw);
-    padding: 7%;
+  footer svg{
+    width: max(30px,4vw);
+    height: max(30px,4vw);
     background-color: white;
-    border-color: #BFAB25;
-    border-width: max(1.5px,0.3vw);
-
+  }
+  footer img{
+    width: max(30px,4vw);
+    height: max(30px,4vw);
+    background-color: white;
   }
   /* End - Social media */
 
