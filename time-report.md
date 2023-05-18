@@ -2,7 +2,12 @@
 
 > Write about what you have done and how long you have worked on each part of the project.
 
-30h-25.5h = 4.5h
+30h-26h = 4h
+2022-05-18 18:20 Arbetade i 0.5 h.
+- Validiering
+  - Kontakt
+  - Hem
+
 2022-05-18 17:00 Arbetade i 1 h.
 - Språkknapp
 - Iframe i kontakt
