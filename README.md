@@ -9,9 +9,12 @@ The aim of the project is to show how you have developed your website, the steps
 REMEMBER TO "COMMIT" YOUR CHANGES REGULARLY TO SHOW HOW YOU HAVE BUILT THIS PROJECT!
 
 # Project Notes
+semantik & kontroll av ev onödig kod - rester av forna tider
+kommentarer
+Lighthouse
+Uppdatera sidorna
+Ändra språk
 
-Samma typ av valideringsfel som tidigare fast nu i collected_review p.g.a <a> täcker <li>
-Menyn flyttas för långt ner
 
 # Project Summary
 
