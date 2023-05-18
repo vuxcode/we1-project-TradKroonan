@@ -27,13 +27,14 @@ article p {
   /* Logo */
   .logo {
     display: inline-block;
+    margin-top: 1%;
     box-sizing: border-box;
     text-align: center;
-    width: 100%;
+    width: max(180px,100%);
   }
   .logo img {
     display: inline-block;
-    width: 15%;
+    width: max(50px,15%);
     border: solid max(1.5px,0.3vw);
     border-radius: 10px;
   }
@@ -394,26 +395,28 @@ article p {
   /* End - Contact */
 
   /* Article & Map*/
-  .parent label main {
+  .parent .label main {
     display: inline-block;
     width: max(150px,40%);
-    margin: 4% 1% 2%;
+    margin: max(20px,6%) 1% 2%;
   }
-  .parent label article {
+  .parent .label article {
     display: inline-block;
     background-color: #354449;
     border-radius: 10px;
     margin-bottom: 2%;
   }
-  .parent label article h2 {
+  .parent .label article h2 {
     border-bottom:solid #BFAB25 max(2.5px,0.5vw);
   }
   iframe{
     display: inline-block;
-    margin: 4% 0 6%;
     width: 100%;
     height: 40vh;
     box-sizing: border-box;
+  }
+  #map {
+    margin:max(20px,6%) 0 max(20px,6%); 
   }
 
   /* End - Article & Map */

@@ -7,7 +7,7 @@
 </head>
 <body>
   <div class="logo">
-    <img class="border" src="logo.png" alt="Logo">
+    <img src="logo_swe.png" alt="Logotyp för Patriks recensionssida">
   </div>
   <nav class="nav_menu">
     <ul>
@@ -19,20 +19,20 @@
     </ul>
   </nav>
   <form action="https://formspree.io/f/xlekvwol" method="POST" class="parent border">
-    <label>
+    <div class="label">
       <fieldset class="border">
-        <legend id="contact_head"><p><b>Kontakta mig</b></p></legend>
+        <legend id="contact_head"><b>Kontakta mig</b></legend>
         <div style="margin-bottom: 5%;">
-          <label><b>Email:</b></label>
+          <label for="email"><b>Email:</b></label>
           <div>
-            <input class="message" type="email">
+            <input class="message" id="email" type="email">
           </div>
         </div>
         <div>
           <label for="message"><b>Ditt meddelande:</b></label>
         </div>
         <div style="margin-bottom: 5%;">
-          <textarea class="message" name="message" rows="10" cols="40"></textarea>
+          <textarea class="message" id="message" name="message" rows="10" cols="40"></textarea>
         </div>
         <div>
           <input id="send" type="submit" value="Skicka">
@@ -45,13 +45,15 @@
             Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
             semper nisi. Aenean vulputate eleifend tellus.
             Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
-        </article>
-        <iframe class="border"
+        </article><article id="map"> 
+          <h3>Skicka brev hit:</h3>
+          <iframe class="border" style="vertical-align: top;"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16729.935756045063!2d13.84151432294226!3d58.389319941106926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465b022fa0475a8f%3A0xb8b2923d9acb8b7!2zw5ZzdGVybWFsbSwgNTQxIDM1IFNrw7Z2ZGU!5e0!3m2!1ssv!2sse!4v1684417047572!5m2!1ssv!2sse" 
           allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-        </iframe>
+          </iframe>
+        </article>
       </main>
-    </label>
+    </div>
   </form>
    <!-- IForm - Karta -->
 
