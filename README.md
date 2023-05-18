@@ -14,7 +14,10 @@ kommentarer
 Lighthouse
 Uppdatera sidorna
 Ändra språk
+max() istället för % i margin
 
+**Difekter**
+  - <a>-tag täcker inte helt språkknappen & mail & collected review
 
 # Project Summary
 
