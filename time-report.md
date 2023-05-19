@@ -4,6 +4,9 @@
 
 30h-27.5h = 2.5h
 2022-05-19 9:40 Arbetade i 1 h.
+-Semantik
+-Språk
+
 2022-05-18 23:20 Arbetade i 0.5 h.
 - Rensning av kod
 
