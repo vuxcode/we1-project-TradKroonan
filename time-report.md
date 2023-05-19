@@ -2,7 +2,8 @@
 
 > Write about what you have done and how long you have worked on each part of the project.
 
-30h-26.5h = 3.5h
+30h-27.5h = 2.5h
+2022-05-19 9:40 Arbetade i 1 h.
 2022-05-18 23:20 Arbetade i 0.5 h.
 - Rensning av kod
 
