@@ -1,24 +1,24 @@
 <!DOCTYPE html>
-<html lang="sv">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Hem</title>
+  <title>Home</title>
   <link href="style.css" rel="stylesheet">
 </head>
 <body>
   <!-- Logo -->
   <header class="logo">
-    <img src="logo_swe.png" alt="Logotyp för Min Ai-vän gör recensioner">
+    <img src="logo_eng.png" alt="Logo for My Ai friend makes reviews">
   </header>
 
-  <!-- Menu -->
-  <nav class="nav_menu">
+   <!-- Menu -->
+   <nav class="nav_menu">
     <ul>
-      <li><a class="border" aria-label="Till startsidan" href="index.html">Hem</a></li>
-      <li><a class="border" aria-label="Till recensioner av" href="collect_movie.html">Filmer</a></li>
-      <li><a class="border" aria-label="Till recensioner av" href="collect_serie.html">Serier</a></li>
-      <li><a class="border" aria-label="Till recensioner av" href="collect_book.html">Böcker</a></li>
-      <li><a class="border" aria-label="Till sidan för att" href="contact.html">Kontakta mig</a></li>
+      <li><a class="border" aria-label="To the homepage" href="index_eng.html">Home</a></li>
+      <li><a class="border" aria-label="For reviews on" href="collect_movie_eng.html">Movies</a></li>
+      <li><a class="border" aria-label="For reviews on" href="collect_serie_eng.html">Series</a></li>
+      <li><a class="border" aria-label="For reviews on" href="collect_book_eng.html">Books</a></li>
+      <li><a class="border" aria-label="To the page to" href="contact_eng.html">Contact me</a></li>
     </ul>
   </nav>
 
@@ -26,35 +26,35 @@
   <main class="parent border">
     <!-- Language button -->
     <div class="lang_button">
-      <a href="index_eng.html">
-        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Flag_of_Sweden.svg/383px-Flag_of_Sweden.svg.png" 
+      <a href="index.html">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/383px-Flag_of_the_United_Kingdom_%281-2%29.svg.png" 
         alt="Swedish flag. Use this to change to the english version of the site">
       </a>
-    </div><!-- Welcome! --><!-- Get rid of a small gap --><summary class="welcome_parent"> 
-      <h2 class="welcome_h2">Välkommen!</h2>
+    </div><!-- Welcome! --><article class="welcome_parent"> 
+      <h2 class="welcome_h2">Welcome!</h2>
       <div class="welcome_p">
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
            Aenean commod ementum semper nisi. Aenean vulputate eleifend tellus.
            Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
            Aliquam lorem ante, dapibus in, viverra quis</p>
       </div>
-    </summary>
+    </article>
 
     <!-- Latest Reviews -->
     <nav class="latest_parent">
-      <h2>Senaste recensioner!</h2>
+      <h2>Latest Reviews!</h2>
       <figure>
         <div class="latest latest_var_top border" >
-          <a aria-label="Till recension av" href="rev_bok1.html"><p>Sagan om ringen</p></a>
+          <a aria-label="To reviews of" href="rev_bok1.html"><p>Lord of the Rings</p></a>
         </div>
         <div class="latest border">
-          <a aria-label="Till recension av" href="#"><p>The Night We Met</p></a>
+          <a aria-label="To reviews of" href="#"><p>The Night We Met</p></a>
         </div>
         <div class="latest border">
-          <a aria-label="Till recension av" href="#"><p>Crazy Nickelson</p></a>
+          <a aria-label="To reviews of" href="#"><p>Crazy Nickelson</p></a>
         </div>
         <div class="latest latest_var_bottom border">
-          <a aria-label="Till recension av" href="#"><p>The Frog Whom Barked</p></a>
+          <a aria-label="To reviews of" href="#"><p>The Frog Whom Barked</p></a>
         </div>
       </figure>
     </nav>
@@ -63,13 +63,13 @@
   <!-- Social Media -->
   <footer class="social">
     <nav>
-
+      
       <!-- Instagram -->
       <figure>
-        <a href="https://www.instagram.com/" aria-label="Länk till Instagram">
+        <a href="https://www.instagram.com/" aria-label="Link to Instagram">
           <img
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/150px-Instagram_logo_2016.svg.png"
-          alt="Bild på Instagram">
+          alt="Image of Instagram">
         </a>
       </figure>
 
@@ -78,7 +78,7 @@
         <!-- Position and dimension -->
         <svg viewBox="0 0 24 24">
           <g>
-            <a href="https://twitter.com/?lang=sv" aria-label="Länk till Twitter">
+            <a href="https://twitter.com/?lang=sv" aria-label="Link to Twitter">
               <!-- Different values to creat the twitter image -->
               <path d="M23.643 4.937c-.835.37-1.732.62-2.675.733.962-.576 1.7-1.49 2.048-2.578-.9.534-1.897.922-2.958 1.13-.85-.904-2.06-1.47-3.4-1.47-2.572 0-4.658 2.086-4.658 4.66 0 .364.042.718.12 1.06-3.873-.195-7.304-2.05-9.602-4.868-.4.69-.63 1.49-.63 2.342 0 1.616.823 3.043 2.072 3.878-.764-.025-1.482-.234-2.11-.583v.06c0 2.257 1.605 4.14 3.737 4.568-.392.106-.803.162-1.227.162-.3 0-.593-.028-.877-.082.593 1.85 2.313 3.198 4.352 3.234-1.595 1.25-3.604 1.995-5.786 1.995-.376 0-.747-.022-1.112-.065 2.062 1.323 4.51 2.093 7.14 2.093 8.57 0 13.255-7.098 13.255-13.254 0-.2-.005-.402-.014-.602.91-.658 1.7-1.477 2.323-2.41z"></path>
             </a>
@@ -88,15 +88,15 @@
 
       <!-- Reddit -->
       <figure>
-        <a href="https://www.reddit.com/" aria-label="Länk till Reddit">
-          <img  src="https://www.redditinc.com/assets/images/site/logo01.svg" alt="Länk till Reddit">
+        <a href="https://www.reddit.com/" aria-label="Link to Reddit">
+          <img  src="https://www.redditinc.com/assets/images/site/logo01.svg" alt="Image of Reddit">
         </a>
       </figure>
 
       <!-- Mail -->
       <figure id="last_media">
         <!-- Didn't cover the blue space if placed in the same order as twitter-anchor -->
-        <a href="mailto:pakr0221@skovde.se" aria-label="Länk till email">
+        <a href="mailto:pakr0221@skovde.se" aria-label="Link to email">
           <!-- Position and dimension -->
           <svg viewBox="0 0 512 512">
             <g>

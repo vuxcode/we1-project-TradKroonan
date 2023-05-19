@@ -1,24 +1,24 @@
 <!DOCTYPE html>
-<html lang="sv">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Kontakta mig</title>
+  <title>Contact me</title>
   <link href="style.css" rel="stylesheet">
 </head>
 <body>
   <!-- Logo -->
   <header class="logo">
-    <img src="logo_swe.png" alt="Logotyp för Min Ai-vän gör recensioner">
+    <img src="logo_eng.png" alt="Logo for My Ai friend makes reviews">
   </header>
 
   <!-- Menu -->
   <nav class="nav_menu">
     <ul>
-      <li><a class="border" aria-label="Till startsidan" href="index.html">Hem</a></li>
-      <li><a class="border" aria-label="Till recensioner av" href="collect_movie.html">Filmer</a></li>
-      <li><a class="border" aria-label="Till recensioner av" href="collect_serie.html">Serier</a></li>
-      <li><a class="border" aria-label="Till recensioner av" href="collect_book.html">Böcker</a></li>
-      <li><a class="border" aria-label="Till sidan för att" href="contact.html">Kontakt info</a></li>
+      <li><a class="border" aria-label="To the homepage" href="index_eng.html">Home</a></li>
+      <li><a class="border" aria-label="For reviews on" href="collect_movie_eng.html">Movies</a></li>
+      <li><a class="border" aria-label="For reviews on" href="collect_serie_eng.html">Series</a></li>
+      <li><a class="border" aria-label="For reviews on" href="collect_book_eng.html">Books</a></li>
+      <li><a class="border" aria-label="To the page to" href="contact_eng.html">Contact me</a></li>
     </ul>
   </nav>
 
@@ -27,7 +27,7 @@
   <form action="https://formspree.io/f/xlekvwol" method="POST" class="parent border">
     <div class="form_container">
       <fieldset class="border">
-        <legend id="contact_head"><b>Kontakta mig</b></legend>
+        <legend id="contact_head"><b>Contact me</b></legend>
         <!-- The users email - input -->
         <figure>
           <label for="email"><b>Email:</b></label>
@@ -37,7 +37,7 @@
         </figure>
         <!-- Message -->
         <div>
-          <label for="message"><b>Ditt meddelande:</b></label>
+          <label for="message"><b>Your message:</b></label>
         </div>
         <!-- Write message area -->
         <figure>
@@ -47,22 +47,22 @@
         <!-- Send message - button -->
         <div>
           <!-- Id has to be a specific value. Type - submit. Value is the text within the button -->
-          <input id="send" type="submit" value="Skicka">
+          <input id="send" type="submit" value="Send">
         </div>
       </fieldset><main>
         <!-- Thank you message -->
         <article>
-          <h2>Tack så mycket</h2>
+          <h2>Thank you!</h2>
           <p style="text-align: left;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
             Aenean commod ementum semper nisi. Aenean vulputate eleifend tellus.
             Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
             semper nisi. Aenean vulputate eleifend tellus.
             Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
         </article><!-- Map --><article id="map"> 
-          <h3>Skicka brev hit:</h3>
+          <h3>Send your letters here:</h3>
           <!-- Iframe - Map --><!-- The code directly from google maps -->
           <iframe class="border"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16729.935756045063!2d13.84151432294226!3d58.389319941106926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465b022fa0475a8f%3A0xb8b2923d9acb8b7!2zw5ZzdGVybWFsbSwgNTQxIDM1IFNrw7Z2ZGU!5e0!3m2!1ssv!2sse!4v1684417047572!5m2!1ssv!2sse" 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16729.935756045063!2d13.84151432294226!3d58.389319941106926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465b022fa0475a8f%3A0xb8b2923d9acb8b7!2zw5ZzdGVybWFsbSwgNTQxIDM1IFNrw7Z2ZGU!5e0!3m2!1sen!2sse!4v1684484148949!5m2!1sen!2sse" 
           allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
           </iframe>
         </article>
@@ -73,40 +73,44 @@
   <!-- Social Media -->
   <footer class="social">
     <nav>
+      
       <!-- Instagram -->
       <figure>
-        <a href="https://www.instagram.com/" aria-label="Länk till Instagram">
+        <a href="https://www.instagram.com/" aria-label="Link to Instagram">
           <img
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/150px-Instagram_logo_2016.svg.png"
-          alt="Bild på Instagram">
+          alt="Image of Instagram">
         </a>
       </figure>
+
       <!-- Twitter -->
       <figure>
         <!-- Position and dimension -->
         <svg viewBox="0 0 24 24">
           <g>
-            <a href="https://twitter.com/?lang=sv" aria-label="Länk till Twitter">
+            <a href="https://twitter.com/?lang=sv" aria-label="Link to Twitter">
               <!-- Different values to creat the twitter image -->
               <path d="M23.643 4.937c-.835.37-1.732.62-2.675.733.962-.576 1.7-1.49 2.048-2.578-.9.534-1.897.922-2.958 1.13-.85-.904-2.06-1.47-3.4-1.47-2.572 0-4.658 2.086-4.658 4.66 0 .364.042.718.12 1.06-3.873-.195-7.304-2.05-9.602-4.868-.4.69-.63 1.49-.63 2.342 0 1.616.823 3.043 2.072 3.878-.764-.025-1.482-.234-2.11-.583v.06c0 2.257 1.605 4.14 3.737 4.568-.392.106-.803.162-1.227.162-.3 0-.593-.028-.877-.082.593 1.85 2.313 3.198 4.352 3.234-1.595 1.25-3.604 1.995-5.786 1.995-.376 0-.747-.022-1.112-.065 2.062 1.323 4.51 2.093 7.14 2.093 8.57 0 13.255-7.098 13.255-13.254 0-.2-.005-.402-.014-.602.91-.658 1.7-1.477 2.323-2.41z"></path>
             </a>
           </g>
         </svg>
       </figure>
+
       <!-- Reddit -->
       <figure>
-        <a href="https://www.reddit.com/" aria-label="Länk till Reddit">
-          <img  src="https://www.redditinc.com/assets/images/site/logo01.svg" alt="Länk till Reddit">
+        <a href="https://www.reddit.com/" aria-label="Link to Reddit">
+          <img  src="https://www.redditinc.com/assets/images/site/logo01.svg" alt="Image of Reddit">
         </a>
       </figure>
+
       <!-- Mail -->
       <figure id="last_media">
         <!-- Didn't cover the blue space if placed in the same order as twitter-anchor -->
-        <a href="mailto:pakr0221@skovde.se" aria-label="Länk till email">
+        <a href="mailto:pakr0221@skovde.se" aria-label="Link to email">
           <!-- Position and dimension -->
           <svg viewBox="0 0 512 512">
             <g>
-              <!-- Different values to creat the twitter image -->
+              <!-- Different values to creat the mail image -->
               <path fill="currentColor" d="M464 64H48C21.5 64 0 85.5 0 112v288c0 26.5 21.5 48 48 48h416c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zM48 96h416c8.8 0 16 7.2 16 16v41.4c-21.9 18.5-53.2 44-150.6 121.3-16.9 13.4-50.2 45.7-73.4 45.3-23.2.4-56.6-31.9-73.4-45.3C85.2 197.4 53.9 171.9 32 153.4V112c0-8.8 7.2-16 16-16zm416 320H48c-8.8 0-16-7.2-16-16V195c22.8 18.7 58.8 47.6 130.7 104.7 20.5 16.4 56.7 52.5 93.3 52.3 36.4.3 72.3-35.5 93.3-52.3 71.9-57.1 107.9-86 130.7-104.7v205c0 8.8-7.2 16-16 16z"></path>
            </g>
           </svg>
