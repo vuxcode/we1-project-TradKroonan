@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Contact me</title>
+  <title>Review</title>
   <link href="style.css" rel="stylesheet">
 </head>
 <body>
@@ -10,7 +10,7 @@
   <header class="logo">
     <img src="logo_eng.png" alt="Logo for My Ai friend makes reviews">
   </header>
-
+  
   <!-- Menu -->
   <nav class="nav_menu">
     <ul>
@@ -22,53 +22,49 @@
     </ul>
   </nav>
 
-  <!-- Contact -->
-  <!-- Uses the free formspree-seervies to send the users message --><!-- Action - send data to. method - Send data to a server -->
-  <form action="https://formspree.io/f/xlekvwol" method="POST" class="parent border">
-    <div class="form_container">
-      <fieldset class="border">
-        <legend id="contact_head"><b>Contact me</b></legend>
-        <!-- The users email - input -->
-        <figure>
-          <label for="email"><b>Email:</b></label>
-          <div>
-            <input class="message" id="email" type="email">
-          </div>
-        </figure>
-        <!-- Message -->
-        <div>
-          <label for="message"><b>Your message:</b></label>
+  <!-- All of the review -->
+  <main class="parent border">
+    <div class="parent_info_review border">
+        <img src="sjö_putte.jpg" alt="">
+        <p>
+          <b>Author: </b>Galna-productions<br>
+          <b>Published: </b>Skräck<br>
+          <b>Genre: </b>Skräck<br>
+          <b>Publishers: </b>Skräck<br>
+          <b>Country: </b>Skräck<br>
+          <b>Language: </b>Skräck<br>
+        </p>
+    </div>
+    
+    <!-- Review - text -->
+    <article class="parent_des_rev">
+      <h2>Lord of the Rings</h2>
+
+      <!-- A description -->
+      <div class="des_rev border">
+        <h3>Description</h3>
+        <div style="text-align: left;">
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+            Aenean commod ementum semper nisi. Aenean vulputate eleifend tellus.
+            Ae nean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
+            Aliquam lorem ante, dapibus in, viverra quis
+          </p>
         </div>
-        <!-- Write message area -->
-        <figure>
-          <!-- class - design. Id has to be a specific value. rows and columns -->
-          <textarea class="message" id="message" rows="10" cols="40"></textarea>
-        </figure>
-        <!-- Send message - button -->
-        <div>
-          <!-- Id has to be a specific value. Type - submit. Value is the text within the button -->
-          <input id="send" type="submit" value="Send">
-        </div>
-      </fieldset><main>
-        <!-- Thank you message -->
-        <article>
-          <h2>Thank you!</h2>
-          <p style="text-align: left;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+      </div><!-- The review --><div class="des_rev border">
+        <h3>Review</h3>
+        <div style="text-align: left;">
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
             Aenean commod ementum semper nisi. Aenean vulputate eleifend tellus.
             Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
-            semper nisi. Aenean vulputate eleifend tellus.
-            Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
-        </article><!-- Map --><article id="map"> 
-          <h3>Send your letters here:</h3>
-          <!-- Iframe - Map --><!-- The code directly from google maps -->
-          <iframe class="border"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16729.935756045063!2d13.84151432294226!3d58.389319941106926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465b022fa0475a8f%3A0xb8b2923d9acb8b7!2zw5ZzdGVybWFsbSwgNTQxIDM1IFNrw7Z2ZGU!5e0!3m2!1sen!2sse!4v1684484148949!5m2!1sen!2sse" 
-          allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-          </iframe>
-        </article>
-      </main>
-    </div>
-  </form>
+            Aliquam lorem ante, dapibus in, viverra quis Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+            Aenean commod ementum semper nisi. Aenean vulputate eleifend tellus.
+            Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
+            Aliquam lorem ante, dapibus in, viverra quis
+          </p>
+        </div>
+      </div>
+    </article>
+  </main>
 
   <!-- Social Media -->
   <footer class="social">
