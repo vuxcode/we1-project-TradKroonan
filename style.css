@@ -7,6 +7,7 @@
   color: #BFAB25;
 }
 body{
+  min-width: 180px;
   background-color: #354449;
   border: solid max(1.5px,0.3vw);
   text-align: center;
@@ -226,7 +227,7 @@ article p {
     background-color:#354449;
     text-align: left;
   }
-  #review_bar_min {
+  .review_bar_min {
     min-height: 11vw;
   }
   .collected_nav a {
