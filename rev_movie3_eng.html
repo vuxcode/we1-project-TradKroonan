@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="description" content="Homepage - logo - menu - info & latest review - social media">
-  <title>Home</title>
+  <meta name="description" content="Homepage - logo - menu - review - social media">
+  <title>Review</title>
   <link href="style.css" rel="stylesheet">
 </head>
 <body>
@@ -11,9 +11,9 @@
   <header class="logo">
     <img src="logo_eng.png" alt="Logo for My Ai friend makes reviews">
   </header>
-
-   <!-- Menu -->
-   <nav class="nav_menu">
+  
+  <!-- Menu -->
+  <nav class="nav_menu">
     <ul>
       <li><a class="border" aria-label="To the homepage" href="index_eng.html">Home</a></li>
       <li><a class="border" aria-label="For reviews on" href="collect_movie_eng.html">Movies</a></li>
@@ -23,41 +23,55 @@
     </ul>
   </nav>
 
-  <!-- Main -->
+  <!-- All of the review -->
   <main class="parent border">
-    <!-- Language button -->
-    <div class="lang_button">
-      <a href="index.html">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/383px-Flag_of_the_United_Kingdom_%281-2%29.svg.png" 
-        alt="Swedish flag. Use this to change to the english version of the site">
-      </a>
-    </div><!-- Welcome! --><article class="welcome_parent"> 
-      <h2 class="welcome_h2">Welcome!</h2>
-      <div class="welcome_p">
-        <p>My Ai-Friend Makes Reviews provides AI-generated reviews on books, movies, and TV series.
-          Our AI-analyzed content offers objective and intriguing opinions.
-          Explore our reviews for insights and recommendations for your next book, film or TV serie choice!</p>
+    <div class="parent_info_review border">
+        <img src="https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_FMjpg_UY2048_.jpg"
+         alt="The cover of the movie The Dark Knight">
+        <p>
+          <b>Director: </b>Christopher Nolan<br>
+          <b>Genre: </b>Action, Crime, Drama<br>
+          <b>Based on: </b>DC Comics<br>
+          <b>Distributor: </b>Warner Bros. Pictures<br>
+          <b>Release: </b>July 14, 2008<br>
+          <b>Language: </b>English<br>
+        </p>
+    </div>
+    
+    <!-- Review - text -->
+    <article class="parent_des_rev">
+      <h2>The Dark Knight</h2>
+
+      <!-- A description -->
+      <div class="des_rev border">
+        <h3>Description</h3>
+        <div style="text-align: left;">
+          <p>The Dark Knight follows Batman's relentless battle against Gotham
+            City's criminals, led by the chaotic Joker. As the Joker wreaks havoc, Batman
+            grapples with moral dilemmas and finds himself pushed to his limits. The film
+            showcases an intense cat-and-mouse game between the two, with the Joker testing
+            Batman's resolve while the fate of the city hangs in the balance. <br><br>The
+            gripping storyline explores themes of heroism, sacrifice, and the
+            blurred line between good and evil.
+          </p>
+        </div>
+      </div><!-- The review --><div class="des_rev border">
+        <h3>Review</h3>
+        <div style="text-align: left;">
+          <p>The Dark Knight is a captivating and gritty superhero film that
+            pushes the boundaries of the genre. Its strengths lie in its compelling
+            storyline, exceptional performances, particularly Heath Ledger's unforgettable
+            portrayal of the Joker, and intense action sequences. The film delves into
+            complex moral dilemmas and explores the psychological depths of its characters.
+            <br><br>However, some viewers might find the dark tone and somber atmosphere
+            overwhelming. Additionally, the film's lengthy runtime and occasional pacing
+            issues may test the patience of some audience members.
+            <br><br>Nonetheless, The Dark Knight remains a highly acclaimed and impactful
+            cinematic experience.
+          </p>
+        </div>
       </div>
     </article>
-
-    <!-- Latest Reviews -->
-    <nav class="latest_parent">
-      <h2>Latest Reviews!</h2>
-      <figure>
-        <div class="latest latest_var_top border" >
-          <a aria-label="To reviews of" href="rev_bok3_eng.html"><p>Educated</p></a>
-        </div>
-        <div class="latest border">
-          <a aria-label="To reviews of" href="rev_movie3_eng.html"><p>The Dark Knight</p></a>
-        </div>
-        <div class="latest border">
-          <a aria-label="To reviews of" href="rev_serie3_eng.html"><p>Game of Thrones S7</p></a>
-        </div>
-        <div class="latest latest_var_bottom border">
-          <a aria-label="To reviews of" href="rev_bok2_eng.html"><p>The Great Gatsby</p></a>
-        </div>
-      </figure>
-    </nav>
   </main>
 
   <!-- Social Media -->

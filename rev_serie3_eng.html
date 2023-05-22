@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
 <head>
   <meta charset="UTF-8">
-  <meta name="description" content="Homepage - logo - menu - info & latest review - social media">
-  <title>Home</title>
+  <meta name="description" content="Homepage - logo - menu - review - social media">
+  <title>Review</title>
   <link href="style.css" rel="stylesheet">
 </head>
 <body>
@@ -11,9 +11,9 @@
   <header class="logo">
     <img src="logo_eng.png" alt="Logo for My Ai friend makes reviews">
   </header>
-
-   <!-- Menu -->
-   <nav class="nav_menu">
+  
+  <!-- Menu -->
+  <nav class="nav_menu">
     <ul>
       <li><a class="border" aria-label="To the homepage" href="index_eng.html">Home</a></li>
       <li><a class="border" aria-label="For reviews on" href="collect_movie_eng.html">Movies</a></li>
@@ -23,41 +23,52 @@
     </ul>
   </nav>
 
-  <!-- Main -->
+  <!-- All of the review -->
   <main class="parent border">
-    <!-- Language button -->
-    <div class="lang_button">
-      <a href="index.html">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/383px-Flag_of_the_United_Kingdom_%281-2%29.svg.png" 
-        alt="Swedish flag. Use this to change to the english version of the site">
-      </a>
-    </div><!-- Welcome! --><article class="welcome_parent"> 
-      <h2 class="welcome_h2">Welcome!</h2>
-      <div class="welcome_p">
-        <p>My Ai-Friend Makes Reviews provides AI-generated reviews on books, movies, and TV series.
-          Our AI-analyzed content offers objective and intriguing opinions.
-          Explore our reviews for insights and recommendations for your next book, film or TV serie choice!</p>
+    <div class="parent_info_review border">
+        <img src="https://m.media-amazon.com/images/M/MV5BN2ZhNDQwN2YtNDZjMy00OTVkLTkzOGUtNWJmMzk5ZTJkMTY1XkEyXkFqcGdeQXVyNTA3MTU2MjE@._V1_FMjpg_UX550_.jpg"
+         alt="An image of the cover for Game of Thrones">
+        <p>
+          <b>Creators: </b>David Benioff & D. B. Weiss<br>
+          <b>Based on: </b>A Song of Ice and Fire<br>
+          <b>Genre: </b>Action, Adventure, Fantasy, Serial drama, Tragedy<br>
+          <b>Seasons: </b>8<br>
+          <b>Country: </b>United States<br>
+          <b>Language: </b>English<br>
+        </p>
+    </div>
+    
+    <!-- Review - text -->
+    <article class="parent_des_rev">
+      <h2>Game of Thrones S7</h2>
+
+      <!-- A description -->
+      <div class="des_rev border">
+        <h3>Description</h3>
+        <div style="text-align: left;">
+          <p>In Season 8 of "Game of Thrones," the battle for the Iron Throne in Westeros
+            intensifies. Jon Snow and Daenerys Targaryen fight against the Night King and
+            his army of the dead. Intrigue, betrayal, and surprising twists unfold as
+            characters converge and decisive battles take place. <br><br>The series reaches
+            its dramatic and emotional conclusion, delving into the consequences of
+            power and loyalty.
+          </p>
+        </div>
+      </div><!-- The review --><div class="des_rev border">
+        <h3>Review</h3>
+        <div style="text-align: left;">
+          <p>The eighth season of "Game of Thrones" had its highlights and drawbacks.
+            The visual spectacle was breathtaking, with epic battles and stunning cinematography.
+            The performances remained strong, particularly from the ensemble cast.<br><br>However, the
+            rushed pacing and condensed storytelling resulted in character arcs feeling rushed
+            and resolutions feeling unearned. Some narrative choices left fans divided, and the
+            series finale failed to satisfy all viewers.<br><br>Despite its flaws, the season still
+            delivered powerful emotional moments and showcased the show's commitment to spectacle,
+            but it fell short of meeting the high expectations set by its earlier seasons.
+          </p>
+        </div>
       </div>
     </article>
-
-    <!-- Latest Reviews -->
-    <nav class="latest_parent">
-      <h2>Latest Reviews!</h2>
-      <figure>
-        <div class="latest latest_var_top border" >
-          <a aria-label="To reviews of" href="rev_bok3_eng.html"><p>Educated</p></a>
-        </div>
-        <div class="latest border">
-          <a aria-label="To reviews of" href="rev_movie3_eng.html"><p>The Dark Knight</p></a>
-        </div>
-        <div class="latest border">
-          <a aria-label="To reviews of" href="rev_serie3_eng.html"><p>Game of Thrones S7</p></a>
-        </div>
-        <div class="latest latest_var_bottom border">
-          <a aria-label="To reviews of" href="rev_bok2_eng.html"><p>The Great Gatsby</p></a>
-        </div>
-      </figure>
-    </nav>
   </main>
 
   <!-- Social Media -->

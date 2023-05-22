@@ -32,6 +32,7 @@ article p {
   }
   .logo img {
     width: max(105px,15%);
+    height: max(50px,15%);
     border: solid max(1.5px,0.3vw);
     border-radius: 10px;
     box-sizing: border-box;
@@ -226,7 +227,7 @@ article p {
     text-align: left;
   }
   #review_bar_min {
-    min-height: 125px;
+    min-height: 11vw;
   }
   .collected_nav a {
     display: inline-block;
@@ -248,6 +249,7 @@ article p {
     display: inline-block;
     width: 80%;
     border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
     background-color: #354449;
     /* Prevents a "bug" that causes this element to follow adjacent elements down */
     vertical-align: top;
@@ -292,7 +294,7 @@ article p {
   }
   .parent_info_review img {
     width: max(130px,20vw);
-    height: max(230px,35vw);
+    height: max(230px,30vw);
     padding: 5%;
     background-color: #354449;
     border-top-left-radius: 4px;

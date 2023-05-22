@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
 <head>
   <meta charset="UTF-8">
-  <meta name="description" content="Homepage - logo - menu - info & latest review - social media">
-  <title>Home</title>
+  <meta name="description" content="Homepage - logo - menu - review - social media">
+  <title>Review</title>
   <link href="style.css" rel="stylesheet">
 </head>
 <body>
@@ -11,9 +11,9 @@
   <header class="logo">
     <img src="logo_eng.png" alt="Logo for My Ai friend makes reviews">
   </header>
-
-   <!-- Menu -->
-   <nav class="nav_menu">
+  
+  <!-- Menu -->
+  <nav class="nav_menu">
     <ul>
       <li><a class="border" aria-label="To the homepage" href="index_eng.html">Home</a></li>
       <li><a class="border" aria-label="For reviews on" href="collect_movie_eng.html">Movies</a></li>
@@ -23,41 +23,49 @@
     </ul>
   </nav>
 
-  <!-- Main -->
+  <!-- All of the review -->
   <main class="parent border">
-    <!-- Language button -->
-    <div class="lang_button">
-      <a href="index.html">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/383px-Flag_of_the_United_Kingdom_%281-2%29.svg.png" 
-        alt="Swedish flag. Use this to change to the english version of the site">
-      </a>
-    </div><!-- Welcome! --><article class="welcome_parent"> 
-      <h2 class="welcome_h2">Welcome!</h2>
-      <div class="welcome_p">
-        <p>My Ai-Friend Makes Reviews provides AI-generated reviews on books, movies, and TV series.
-          Our AI-analyzed content offers objective and intriguing opinions.
-          Explore our reviews for insights and recommendations for your next book, film or TV serie choice!</p>
+    <div class="parent_info_review border">
+        <img src="https://upload.wikimedia.org/wikipedia/en/d/d4/Stranger_Things_season_3.png"
+         alt="An image of the cover for Stranger Things">
+        <p>
+          <b>Creators: </b>The Duffer Brothers<br>
+          <b>Genre: </b>Science fiction, Horror, Mystery, Drama<br>
+          <b>Seasons: </b>4<br>
+          <b>Country: </b>United States<br>
+          <b>Language: </b>English<br>
+        </p>
+    </div>
+    
+    <!-- Review - text -->
+    <article class="parent_des_rev">
+      <h2>Stranger Things S3</h2>
+
+      <!-- A description -->
+      <div class="des_rev border">
+        <h3>Description</h3>
+        <div style="text-align: left;">
+          <p>In Stranger Things Season 3, set in 1985, Hawkins faces a
+            new threat from a secret Russian base. Eleven and her friends
+            must band together to stop the danger, while also navigating
+            complicated relationships and the challenges of growing up. The
+            season is filled with suspense, humor, and 80s nostalgia.
+          </p>
+        </div>
+      </div><!-- The review --><div class="des_rev border">
+        <h3>Review</h3>
+        <div style="text-align: left;">
+          <p>Stranger Things Season 3 delivers on multiple fronts. The characters
+            continue to be charming, with their relationships deepening. The
+            thrilling adventure, combined with 80s nostalgia, creates an entertaining
+            atmosphere. Visually, the series is impressive with its effects and set design.
+            <br><br>However, some subplots may feel less compelling, and certain character
+            developments lack depth. Additionally, some jokes become slightly repetitive.
+            <br><br>Despite these minor flaws, Season 3 remains a strong continuation of the
+            series, offering plenty of enjoyment and excitement.</p>
+        </div>
       </div>
     </article>
-
-    <!-- Latest Reviews -->
-    <nav class="latest_parent">
-      <h2>Latest Reviews!</h2>
-      <figure>
-        <div class="latest latest_var_top border" >
-          <a aria-label="To reviews of" href="rev_bok3_eng.html"><p>Educated</p></a>
-        </div>
-        <div class="latest border">
-          <a aria-label="To reviews of" href="rev_movie3_eng.html"><p>The Dark Knight</p></a>
-        </div>
-        <div class="latest border">
-          <a aria-label="To reviews of" href="rev_serie3_eng.html"><p>Game of Thrones S7</p></a>
-        </div>
-        <div class="latest latest_var_bottom border">
-          <a aria-label="To reviews of" href="rev_bok2_eng.html"><p>The Great Gatsby</p></a>
-        </div>
-      </figure>
-    </nav>
   </main>
 
   <!-- Social Media -->

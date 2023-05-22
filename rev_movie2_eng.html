@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="description" content="Homepage - logo - menu - info & latest review - social media">
-  <title>Home</title>
+  <meta name="description" content="Homepage - logo - menu - review - social media">
+  <title>Review</title>
   <link href="style.css" rel="stylesheet">
 </head>
 <body>
@@ -11,9 +11,9 @@
   <header class="logo">
     <img src="logo_eng.png" alt="Logo for My Ai friend makes reviews">
   </header>
-
-   <!-- Menu -->
-   <nav class="nav_menu">
+  
+  <!-- Menu -->
+  <nav class="nav_menu">
     <ul>
       <li><a class="border" aria-label="To the homepage" href="index_eng.html">Home</a></li>
       <li><a class="border" aria-label="For reviews on" href="collect_movie_eng.html">Movies</a></li>
@@ -23,41 +23,52 @@
     </ul>
   </nav>
 
-  <!-- Main -->
+  <!-- All of the review -->
   <main class="parent border">
-    <!-- Language button -->
-    <div class="lang_button">
-      <a href="index.html">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/383px-Flag_of_the_United_Kingdom_%281-2%29.svg.png" 
-        alt="Swedish flag. Use this to change to the english version of the site">
-      </a>
-    </div><!-- Welcome! --><article class="welcome_parent"> 
-      <h2 class="welcome_h2">Welcome!</h2>
-      <div class="welcome_p">
-        <p>My Ai-Friend Makes Reviews provides AI-generated reviews on books, movies, and TV series.
-          Our AI-analyzed content offers objective and intriguing opinions.
-          Explore our reviews for insights and recommendations for your next book, film or TV serie choice!</p>
+    <div class="parent_info_review border">
+      <img src="https://upload.wikimedia.org/wikipedia/en/2/2e/Inception_%282010%29_theatrical_poster.jpg"
+      alt="The cover of the movie Inception">
+        <p>
+          <b>Director: </b>Christopher Nolan<br>
+          <b>Genre: </b>Action, Adventure, Sci-Fi<br>
+          <b>Distributor: </b>Warner Bros. Pictures<br>
+          <b>Release: </b>July 8, 2010 <br>
+          <b>Language: </b>English<br>
+        </p>
+    </div>
+    
+    <!-- Review - text -->
+    <article class="parent_des_rev">
+      <h2>Inception</h2>
+
+      <!-- A description -->
+      <div class="des_rev border">
+        <h3>Description</h3>
+        <div style="text-align: left;">
+          <p>Inception is a complex sci-fi thriller where a team of experts
+            performs heists by infiltrating dreams. Cobb, played by Leonardo DiCaprio,
+            takes on a mission to implant an idea instead of stealing it. The film explores
+            a labyrinth of dreams and reality, featuring surprising twists and visually
+            spectacular sequences.
+          </p>
+        </div>
+      </div><!-- The review --><div class="des_rev border">
+        <h3>Review</h3>
+        <div style="text-align: left;">
+          <p>Inception is a mind-bending masterpiece that pushes the boundaries of imagination.
+            The film's strengths lie in its intricately crafted storyline,
+            breathtaking visuals, and brilliant performances by the ensemble
+            cast. Director Christopher Nolan weaves a complex web of dreams within
+            dreams, exploring themes of perception and reality.<br><br>However, the film's
+            convoluted plot may be challenging to follow for some viewers, and its
+            runtime may feel lengthy. <br><br>Nonetheless, Inception remains a thought-provoking
+            and visually stunning cinematic experience that demands active engagement from
+            its audience. Its impact and innovative concepts make it a must-see for any
+            lover of intelligent sci-fi films.
+          </p>
+        </div>
       </div>
     </article>
-
-    <!-- Latest Reviews -->
-    <nav class="latest_parent">
-      <h2>Latest Reviews!</h2>
-      <figure>
-        <div class="latest latest_var_top border" >
-          <a aria-label="To reviews of" href="rev_bok3_eng.html"><p>Educated</p></a>
-        </div>
-        <div class="latest border">
-          <a aria-label="To reviews of" href="rev_movie3_eng.html"><p>The Dark Knight</p></a>
-        </div>
-        <div class="latest border">
-          <a aria-label="To reviews of" href="rev_serie3_eng.html"><p>Game of Thrones S7</p></a>
-        </div>
-        <div class="latest latest_var_bottom border">
-          <a aria-label="To reviews of" href="rev_bok2_eng.html"><p>The Great Gatsby</p></a>
-        </div>
-      </figure>
-    </nav>
   </main>
 
   <!-- Social Media -->

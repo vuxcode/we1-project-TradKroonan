@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="description" content="Homepage - logo - menu - info & latest review - social media">
-  <title>Home</title>
+  <meta name="description" content="Homepage - logo - menu - review - social media">
+  <title>Review</title>
   <link href="style.css" rel="stylesheet">
 </head>
 <body>
@@ -11,9 +11,9 @@
   <header class="logo">
     <img src="logo_eng.png" alt="Logo for My Ai friend makes reviews">
   </header>
-
-   <!-- Menu -->
-   <nav class="nav_menu">
+  
+  <!-- Menu -->
+  <nav class="nav_menu">
     <ul>
       <li><a class="border" aria-label="To the homepage" href="index_eng.html">Home</a></li>
       <li><a class="border" aria-label="For reviews on" href="collect_movie_eng.html">Movies</a></li>
@@ -23,41 +23,53 @@
     </ul>
   </nav>
 
-  <!-- Main -->
+  <!-- All of the review -->
   <main class="parent border">
-    <!-- Language button -->
-    <div class="lang_button">
-      <a href="index.html">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/383px-Flag_of_the_United_Kingdom_%281-2%29.svg.png" 
-        alt="Swedish flag. Use this to change to the english version of the site">
-      </a>
-    </div><!-- Welcome! --><article class="welcome_parent"> 
-      <h2 class="welcome_h2">Welcome!</h2>
-      <div class="welcome_p">
-        <p>My Ai-Friend Makes Reviews provides AI-generated reviews on books, movies, and TV series.
-          Our AI-analyzed content offers objective and intriguing opinions.
-          Explore our reviews for insights and recommendations for your next book, film or TV serie choice!</p>
+    <div class="parent_info_review border">
+      <img src="https://upload.wikimedia.org/wikipedia/en/8/81/ShawshankRedemptionMoviePoster.jpg" 
+      alt="The cover of the movie The Shawshank Redemption">
+        <p>
+          <b>Director: </b>Frank Darabont<br>
+          <b>Genre: </b>Drama<br>
+          <b>Based on: </b>Rita Hayworth and Shawshank Redemption<br>
+          <b>Distributor: </b>Columbia Pictures<br>
+          <b>Release: </b>September 10, 1994<br>
+          <b>Language: </b>English<br>
+        </p>
+    </div>
+    
+    <!-- Review - text -->
+    <article class="parent_des_rev">
+      <h2>The Shawshank Redemption</h2>
+
+      <!-- A description -->
+      <div class="des_rev border">
+        <h3>Description</h3>
+        <div style="text-align: left;">
+          <p>The Shawshank Redemption depicts the story of Andy Dufresne, a
+            wrongly convicted banker, as he adapts to life in Shawshank State
+            Penitentiary. He forms a close friendship with Red and helps fellow
+            inmates. Andy plans his escape and reveals the truth about his innocence
+            before ultimately achieving freedom.
+          </p>
+        </div>
+      </div><!-- The review --><div class="des_rev border">
+        <h3>Review</h3>
+        <div style="text-align: left;">
+          <p>The Shawshank Redemption is an exceptional film that excels in several aspects.
+            The strong performances by Tim Robbins and Morgan Freeman bring depth and
+            authenticity to their characters, while the storytelling is gripping and
+            emotionally resonant. The themes of hope, friendship, and the indomitable
+            human spirit are beautifully explored. The cinematography captures the
+            starkness of prison life, and the screenplay is masterfully crafted.
+            <br><br>However, some viewers may find the slow pacing and lengthy runtime
+            challenging.<br><br>Despite this, the film's powerful message and stellar execution
+            make it an enduring classic that deserves its reputation as one of the
+            greatest films of all time.
+          </p>
+        </div>
       </div>
     </article>
-
-    <!-- Latest Reviews -->
-    <nav class="latest_parent">
-      <h2>Latest Reviews!</h2>
-      <figure>
-        <div class="latest latest_var_top border" >
-          <a aria-label="To reviews of" href="rev_bok3_eng.html"><p>Educated</p></a>
-        </div>
-        <div class="latest border">
-          <a aria-label="To reviews of" href="rev_movie3_eng.html"><p>The Dark Knight</p></a>
-        </div>
-        <div class="latest border">
-          <a aria-label="To reviews of" href="rev_serie3_eng.html"><p>Game of Thrones S7</p></a>
-        </div>
-        <div class="latest latest_var_bottom border">
-          <a aria-label="To reviews of" href="rev_bok2_eng.html"><p>The Great Gatsby</p></a>
-        </div>
-      </figure>
-    </nav>
   </main>
 
   <!-- Social Media -->
