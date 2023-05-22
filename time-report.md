@@ -2,7 +2,12 @@
 
 > Write about what you have done and how long you have worked on each part of the project.
 
-30h-28.5h = 1.5h
+30h-29.5h = 0.5h
+
+2022-05-22 22:30 Arbetade i 1 h.
+- Content
+  - AI-producerat och språkanpassat
+
 2022-05-19 19:00 Arbetade i 1 h.
 - Språk
 - Fylla i med recensioner
