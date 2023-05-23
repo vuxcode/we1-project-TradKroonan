@@ -240,7 +240,7 @@ article p {
   }
   .review_bar_img {
     display: inline-block;
-    width: 15%;
+    width: max(29px,15%);
     box-sizing: border-box;
   }
   .review_bar img {
