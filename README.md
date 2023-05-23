@@ -17,4 +17,12 @@ Att bilderna anpassa bättre. Lite "pressade"
 
 # Project Summary
 
-> Before the final submission date you should include a "PROJECT SUMMARY" in this section here.
+- A description of how you want to present the project to the world
+Eftersom projektet inte har som mål att uppnå någon form av företagsamhet tycker inte jag att det är passande att försöka införskaffa sig reklam för att presentera/sprida sidan. Detta projektet är mer en intressant tanke eller kanske mer som ett experiment, så det mest passande är att sidan presenteras på sociala medier och låter likasinnade sprida denna sidan vidare. Själva grundinlägget på samtliga sociala medier tycker jag borde vara i stil med -> "Titta vad jag har gjort!" och inlägget ska reflektera sidan, någon rad och bild här och där, inget stort. 
+  
+A reflection of the experiences you had while creating the project
+
+A list of what could be improved in the project if you had more time?
+  
+A conclusion on the budget. Did you manage to stick to the budget? Why? / Why not?
+
