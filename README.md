@@ -9,13 +9,8 @@ The aim of the project is to show how you have developed your website, the steps
 REMEMBER TO "COMMIT" YOUR CHANGES REGULARLY TO SHOW HOW YOU HAVE BUILT THIS PROJECT!
 
 # Project Notes
-semantik - html
-kommentarer - html
-Lighthouse <meta>
-Uppdatera sidorna
-Ändra språk
 max() istället för % i margin
-
+Att bilderna anpassa bättre. Lite "pressade"
 
 **Difekter**
   - <a>-tag täcker inte helt språkknappen & mail & collected review
