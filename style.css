@@ -116,6 +116,7 @@ article p {
     /* Flex is simpler to center horizontally and vertically */
     display: flex;
     margin: 3% 10% 3% 0; 
+    /* As vertical-align but working */
     align-items: center;
   }
   #last_media{
@@ -227,6 +228,9 @@ article p {
     background-color:#354449;
     text-align: left;
   }
+  .review_bar:hover{
+    background-color: #BFAB25;
+  }
   .review_bar_min {
     min-height: 11vw;
   }
@@ -236,7 +240,7 @@ article p {
   }
   .review_bar_img {
     display: inline-block;
-    width: 20%;
+    width: 15%;
     box-sizing: border-box;
   }
   .review_bar img {
