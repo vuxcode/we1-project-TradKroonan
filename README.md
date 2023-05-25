@@ -34,6 +34,7 @@ Att bilderna anpassa bättre. Lite "pressade"
   - Ändra bilderna i recensionerna så att de blir mer designade
   - Flera språk hade ju varit kul. Sen kan jag inte fler språk än svenska & engelska.
   - Språkknappen borde ha en annan plats, finnas på flera av sidorna och/eller anpassas så att den inte skjuter undan "Välkommen"-meddelandet
+  - Personer med semi-lång mail får inte platts i mail-rutan, så att man kan se hela mailen samtidigt
   
 - A conclusion on the budget. Did you manage to stick to the budget? Why? / Why not?
   - Av aktivt kodande + innehållsskapande har jag uppnåt 30h, men om man räknar med försök och experiment för att lösa vissa problem som jag hade så är jag nog väl över         30h. Speciellt i början tog det mycket tid och sen när jag började skapa flera tilläggssidor så blev det mycket att hålla koll på och kontrollera så att det funkade.
