@@ -375,7 +375,8 @@ article p {
     box-sizing: border-box;
     background-color: #354449;
     border:solid max(2.5px,0.3vw);
-    font-size: medium;
+    font-size: max(2.5vw,15px);
+    text-shadow: black 0 0 10px;
   }
   #contact_head {
     padding: 0 2%; 
